@@ -6,3 +6,6 @@ results/
 node_modules/
 __pycache__/
 *.pyc
+scripts/clients/go/smoke
+scripts/clients/java/lib/
+scripts/clients/java/*.class
