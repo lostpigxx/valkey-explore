@@ -1,4 +1,5 @@
 results/
+.data/
 *.rdb
 *.aof
 *.log
