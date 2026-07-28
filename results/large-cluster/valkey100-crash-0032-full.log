@@ -1,0 +1,941 @@
+1:M 28 Jul 2026 02:29:12.138 * oO0OoO0OoO0Oo Valkey is starting oO0OoO0OoO0Oo
+1:M 28 Jul 2026 02:29:12.139 * Valkey version=9.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:M 28 Jul 2026 02:29:12.139 * Configuration loaded
+1:M 28 Jul 2026 02:29:12.139 * monotonic clock: POSIX clock_gettime
+1:M 28 Jul 2026 02:29:12.139 * Running mode=cluster, port=43032.
+1:M 28 Jul 2026 02:29:12.139 * No cluster configuration found, I'm b89efb2979df9746755510be7f43f627833d2e80
+1:M 28 Jul 2026 02:29:12.141 * Server initialized
+1:M 28 Jul 2026 02:29:12.141 * Ready to accept connections tcp
+1:M 28 Jul 2026 02:29:14.168 # Cluster is currently down: I am part of a minority partition.
+1:M 28 Jul 2026 02:31:01.795 # Cluster is currently down: At least one hash slot is not served by any available node. Please check the 'cluster-require-full-coverage' configuration.
+1:M 28 Jul 2026 02:31:01.811 * configEpoch set to 33 via CLUSTER SET-CONFIG-EPOCH
+1:M 28 Jul 2026 02:31:01.833 * Cluster meet 127.0.0.1:43000 (user request from 'id=3 addr=127.0.0.1:60430 laddr=127.0.0.1:43032 fd=13 name=*redacted* user=*redacted* lib-name= lib-ver=').
+1:M 28 Jul 2026 02:31:02.007 * IP address for this node updated to 127.0.0.1
+1:M 28 Jul 2026 02:31:02.007 * Successfully completed handshake with 9af6004abaae9fca1446b47c324adcdb70e5a493 ()
+1:M 28 Jul 2026 02:31:02.007 * Mismatch in topology information for sender node 9af6004abaae9fca1446b47c324adcdb70e5a493 () in shard 58985e9bb76c4a528800ac95008bbfc358b6b1bb
+1:M 28 Jul 2026 02:31:02.042 * Mismatch in topology information for sender node d7596d758dd12949a868078140cfade9aa56cd80 () in shard fc85bb83440d7b12be737a8b049737733fa074b4
+1:M 28 Jul 2026 02:31:02.043 * Mismatch in topology information for sender node d14a79794e64afb37a60bedbfc01bbd3e7b8a762 () in shard 305dbeef22ba6cf6f49e8faaca876987d7fa9141
+1:M 28 Jul 2026 02:31:02.043 * Mismatch in topology information for sender node 3dcea49aecc401816c6f32f070029fea63cda28b () in shard 8951c9633191c5203a955cba219a342348be1434
+1:M 28 Jul 2026 02:31:02.043 * Mismatch in topology information for sender node d7781ef484f388b3b6d54912e5fdefe9391ca53b () in shard fb1e9755390a1f22a24a7382bd975e8c4b502009
+1:M 28 Jul 2026 02:31:02.043 * Mismatch in topology information for sender node d6b970fb996252a329b28befa5da9b3a0de5cbd6 () in shard 270ceb60dec805c8cfca950021bb8d8d41a11e9c
+1:M 28 Jul 2026 02:31:02.456 * Mismatch in topology information for sender node 53aab6310f61f156758427c2a67c74b51cfc2887 () in shard f626a522574c338265618edb1a9213ac1f918640
+1:M 28 Jul 2026 02:31:02.456 * Mismatch in topology information for sender node 8ff391cde62ac35da285a880fe39c0040ae55297 () in shard 88ac09570ea54b682eaca0e0d2bee4fba62e68c7
+1:M 28 Jul 2026 02:31:02.456 * Mismatch in topology information for sender node 91462d5c46d4f689c816acbd1bafc885d719ebdf () in shard 1c8ccbc179895e926b1205a94767b5c614444bce
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node 3e8507f76ce24e3c05b1773367229e46dbd6b9e4 () in shard 63235b3363417b7078e8b2431dbe83fb8679481e
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node aa34ea70a67865b6e155de387193f9bad86e88ad () in shard 536e97b9f92ca1e93d39f93a18ad73d55e19824e
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node 66b22648b675bd3ba177c193c35be786d2a59ebb () in shard 53983f164f0eb162c85fb177a19caee1637e716a
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node 75ec0e6e491ea57ba462e81c2b73d9524dd3339a () in shard 6d6bb0244124d39b001af19b25c26be86592c35c
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node f68002154c31f604c6c390b71ca5de140dd52fd9 () in shard d7f35736827427d7652dce1e5cdbb35655717562
+1:M 28 Jul 2026 02:31:02.560 * Mismatch in topology information for sender node 043cb3eaf2dce8760506fd276cd505289f8349cc () in shard e02a07c28dfd3b2b095986cdf7da92b4e42f41d7
+1:M 28 Jul 2026 02:31:02.571 * Mismatch in topology information for sender node 6ef8138d923af73cd9b5795e2e159369dc7576e6 () in shard ffcf984d44045e2f2c8614c771a07b5fb99e80ff
+1:M 28 Jul 2026 02:31:02.571 * Mismatch in topology information for sender node 718d830c262a23ffeb38e0f8f886b8a7639a7c0d () in shard d87515e8c7b6096f21ac3f2663da5caf0bcf0d4c
+1:M 28 Jul 2026 02:31:02.571 * Mismatch in topology information for sender node 8680331d5f51caf2640170260bddd0f2ba300682 () in shard 5f83c088d481cd58f11129a5ca8eae6dd76ef404
+1:M 28 Jul 2026 02:31:02.571 * Mismatch in topology information for sender node a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 () in shard 25d0d4a6a82b5782f0316cd5b6fb875d5677ce4f
+1:M 28 Jul 2026 02:31:02.571 * Mismatch in topology information for sender node b17d42107957413c3afa216b0fd2a40efd894914 () in shard eef7aebe0b3d9248e8b876a1b4d016b546b3a7f2
+1:M 28 Jul 2026 02:31:02.585 * Mismatch in topology information for sender node b3bda9ded66705c6f4ef9ec90165780261c9a774 () in shard 529bf5803dca2d9456230a6b7af8c723c2ad0598
+1:M 28 Jul 2026 02:31:02.598 * Mismatch in topology information for sender node 5427d443812b4875185e1be099e7ec3196bd9e55 () in shard 1be597e2bacc5365a0f2e0ce44abfb64e0a14836
+1:M 28 Jul 2026 02:31:02.677 * Mismatch in topology information for sender node 11206996aa4fcb134fc1450c61e1b77fd1554313 () in shard 126a2233e20aa955cc29e2fcfe74df8971565286
+1:M 28 Jul 2026 02:31:02.677 * Mismatch in topology information for sender node 9865788c3cf3d5f80a9c0e012e6b78d21241598d () in shard 1a636ad4dbc45706a48cf8da947fd532f7730201
+1:M 28 Jul 2026 02:31:02.677 * Mismatch in topology information for sender node eda04462ed7666bbfa913d5cd2a069e5c18edc4b () in shard 84460bd4947591c2180ecdeae6732b533e799c6c
+1:M 28 Jul 2026 02:31:02.677 * Mismatch in topology information for sender node af2c78fadbd09497d85d42a74fceb01b80950ed7 () in shard 5e8d511fe129ea7ee1d85da49af42f2e22e0b265
+1:M 28 Jul 2026 02:31:02.678 * Mismatch in topology information for sender node d2b987762bd0686a5d0102a9803ef96cb103ff9c () in shard 2e9ad611090345c65f5bec5bef18ceb5b75a7b5a
+1:M 28 Jul 2026 02:31:02.678 * Mismatch in topology information for sender node 897f4d19f1411bd802339b82af8f53346ffe7b4d () in shard 76795fcfa08134a1ee602451bcff0ebff03d349e
+1:M 28 Jul 2026 02:31:02.679 * Mismatch in topology information for sender node 240468e94b853b3840656169a90180cbb8320045 () in shard 0c715df4403f191f81476a983018d668ffe475b4
+1:M 28 Jul 2026 02:31:02.679 * Mismatch in topology information for sender node 021ff45debda42c9d0c6ec4d38697756bc7282c9 () in shard 6502ce6d2be51fe7ca50a4c8c6a2f89dd53ccb27
+1:M 28 Jul 2026 02:31:02.679 * Mismatch in topology information for sender node 4c3b73d091cba61cccbf9ec390d61d8c32c3be53 () in shard 6dbbf089b4ce181b7915bef56a5a213a0bf6c695
+1:M 28 Jul 2026 02:31:02.679 * Mismatch in topology information for sender node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () in shard b04af7abb3baae851e9d8759013b5bfabd227999
+1:M 28 Jul 2026 02:31:02.684 * Mismatch in topology information for sender node 13a930c01bffcb8daf5144ad671e3768dd678212 () in shard ed800bc5ec204ea0456668eb9ea30badec871e2a
+1:M 28 Jul 2026 02:31:02.725 * Mismatch in topology information for sender node 3ddb1fe2068972118cc55983341295f829d715cc () in shard bf8a1de382b79a51503fa20a01cf0477f841a9a8
+1:M 28 Jul 2026 02:31:02.725 * Mismatch in topology information for sender node 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 () in shard b73d7404c390a2a7daea38887bf3b7b37d6727b7
+1:M 28 Jul 2026 02:31:02.725 * Mismatch in topology information for sender node 1b42b1b2814cd4cdf845c58d3dee8b06bdc1e2fa () in shard 1b1c5a07dac1bd5685c3ef2528f9951f81805985
+1:M 28 Jul 2026 02:31:02.729 * Mismatch in topology information for sender node 1377c162e23ebb1d1968d56982381297190b12f0 () in shard dfca1f7f889fc1eae73632aa21fcfc37539552f9
+1:M 28 Jul 2026 02:31:02.729 * Mismatch in topology information for sender node 2b8102351d06cb7da0724a18c835db8a8e689452 () in shard 94a9f6f9bd8784cead51af3bc509d2b7be80d595
+1:M 28 Jul 2026 02:31:02.736 * Mismatch in topology information for sender node dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 () in shard c2e31ce50c87383a8958a37b48c442f82690ed9e
+1:M 28 Jul 2026 02:31:02.736 * Mismatch in topology information for sender node 7af12c56dbaf453a90eac4308c0381e6e523be17 () in shard 3a45303bb3c0584ad308dbaa754469f11c32aee9
+1:M 28 Jul 2026 02:31:02.736 * Mismatch in topology information for sender node a0a21655d6a1ae1d56717571598f731d815ec22c () in shard 562653e5b58f00687aa27b292813b877a20116ed
+1:M 28 Jul 2026 02:31:02.742 * Mismatch in topology information for sender node 47332c36b84f555b239fdaa5c549b52936b2240b () in shard 1adead90a0603cceb99c15b6c7eee3df9cf93089
+1:M 28 Jul 2026 02:31:02.750 * Mismatch in topology information for sender node 3254898e3777ca0d91b820709852d139713cff04 () in shard 144f3e1ecbfe95493b7ed30629a9751dcc7d45ee
+1:M 28 Jul 2026 02:31:02.766 * Mismatch in topology information for sender node d82cfaa3d55f79b9be1bfd2a8a3b9c205545cf3c () in shard 611f0b5c6086c061510869cc452c2901209905cf
+1:M 28 Jul 2026 02:31:02.793 * Mismatch in topology information for sender node a106173d75a7c194fc248d3b52e4b033f6c3ce81 () in shard 9fc89c183047764fab7a708d81b3fd0c4ddb0cb2
+1:M 28 Jul 2026 02:31:02.853 * Mismatch in topology information for sender node 4861be930809bc8dcd53f03e268f7a44b9371d35 () in shard b28d4214ff60109ae1239fb4862f4d70380c1bc2
+1:M 28 Jul 2026 02:31:02.882 * Mismatch in topology information for sender node f6625cba8c046b6d1bb994e59d8b1d24054f53c8 () in shard 02337ad349b5a9d46e002fc6fbbbaee931f1d17e
+1:M 28 Jul 2026 02:31:02.936 * Mismatch in topology information for sender node ae7cf753f52f7384bc1084c5adeb691572b27869 () in shard e5fea1258171f6f9651948e83d2f5241ea3f5763
+1:M 28 Jul 2026 02:31:02.957 * Mismatch in topology information for sender node 297f19bae932c1c3cbbe8c49309e0a0299329f7c () in shard a74665137955d5bf3216db51afe0b8bd83dc802b
+1:M 28 Jul 2026 02:31:06.762 * Cluster state changed: ok
+1:M 28 Jul 2026 02:31:07.547 * Freeing outbound link to node 53aab6310f61f156758427c2a67c74b51cfc2887 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.694 * Freeing outbound link to node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.751 * Freeing outbound link to node aa34ea70a67865b6e155de387193f9bad86e88ad () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.755 * Freeing outbound link to node a3998998af2d03552bbd766206c5fd7ec8144f26 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.756 * Freeing outbound link to node ca1c92679341c847bd24a1baf020f3931146dede () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.846 * Freeing outbound link to node 2b8102351d06cb7da0724a18c835db8a8e689452 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.879 * Freeing outbound link to node 8c831b56cb28e2433afd6a639b779f7cf73a8ecb () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.896 * Freeing outbound link to node 3ddb1fe2068972118cc55983341295f829d715cc () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:07.950 * Node b478f80dab953e9c2b150f692a5bf05baeef5ca3 () is no longer primary of shard 04422eb2956ec038a08e738f8d8a293cec6a0141; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:07.950 * Node b478f80dab953e9c2b150f692a5bf05baeef5ca3 () is now part of shard ebda520828bde86096e0ba5d50909d6468dfbfd9
+1:M 28 Jul 2026 02:31:07.950 * Node b478f80dab953e9c2b150f692a5bf05baeef5ca3 () is now a replica of node d2b987762bd0686a5d0102a9803ef96cb103ff9c () in shard ebda520828bde86096e0ba5d50909d6468dfbfd9
+1:M 28 Jul 2026 02:31:07.950 * Node a3998998af2d03552bbd766206c5fd7ec8144f26 () is no longer primary of shard 60d688ef3334578c6e83c324ce0de3baa6217e47; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:07.950 * Node a3998998af2d03552bbd766206c5fd7ec8144f26 () is now part of shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:M 28 Jul 2026 02:31:07.950 * Node a3998998af2d03552bbd766206c5fd7ec8144f26 () is now a replica of node dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 () in shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:M 28 Jul 2026 02:31:07.950 * Node 8c831b56cb28e2433afd6a639b779f7cf73a8ecb () is no longer primary of shard c4c0162eaedcb56f1c779fcb6537d617d04d1491; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:07.950 * Node 8c831b56cb28e2433afd6a639b779f7cf73a8ecb () is now part of shard 29614ee19ea1b84d720c76dc2f0412b174d3b6d6
+1:M 28 Jul 2026 02:31:07.950 * Node 8c831b56cb28e2433afd6a639b779f7cf73a8ecb () is now a replica of node 718d830c262a23ffeb38e0f8f886b8a7639a7c0d () in shard 29614ee19ea1b84d720c76dc2f0412b174d3b6d6
+1:M 28 Jul 2026 02:31:07.982 * Node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () is no longer primary of shard c5e2fe466842293bfde9c0af1522aa89ab1c4b5f; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:07.982 * Node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () is now part of shard 94a412ad143eeff2a3200cdb52f5488a5bf43e3f
+1:M 28 Jul 2026 02:31:07.982 * Node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () is now a replica of node 75ec0e6e491ea57ba462e81c2b73d9524dd3339a () in shard 94a412ad143eeff2a3200cdb52f5488a5bf43e3f
+1:M 28 Jul 2026 02:31:07.982 * Freeing outbound link to node 240468e94b853b3840656169a90180cbb8320045 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.014 * Node 57681be645364799c435291e3e6f970c6efc47c8 () is no longer primary of shard 3690b94bf70b7a66d529ae6e8510086828f930df; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.014 * Node 57681be645364799c435291e3e6f970c6efc47c8 () is now part of shard 8f41191bb0b54a0150d6d76fef5a54e15692409d
+1:M 28 Jul 2026 02:31:08.014 * Node 57681be645364799c435291e3e6f970c6efc47c8 () is now a replica of node 3dcea49aecc401816c6f32f070029fea63cda28b () in shard 8f41191bb0b54a0150d6d76fef5a54e15692409d
+1:M 28 Jul 2026 02:31:08.066 * Node f2a5d1ec510a03b3fab9a1361f64dae29e354e1f () is no longer primary of shard 395eb5e01a4772a3f324a02d590fe8da1e8e4ab6; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.066 * Node f2a5d1ec510a03b3fab9a1361f64dae29e354e1f () is now part of shard d14734748c2c4e4d5b304c8601e83923ea7bd946
+1:M 28 Jul 2026 02:31:08.066 * Node f2a5d1ec510a03b3fab9a1361f64dae29e354e1f () is now a replica of node 6ef8138d923af73cd9b5795e2e159369dc7576e6 () in shard d14734748c2c4e4d5b304c8601e83923ea7bd946
+1:M 28 Jul 2026 02:31:08.183 * Freeing outbound link to node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.183 * Freeing outbound link to node 59f20449ceca23f95676b637ee019862bf57e3e8 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.183 * Freeing outbound link to node 11206996aa4fcb134fc1450c61e1b77fd1554313 () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.183 * Freeing outbound link to node eda04462ed7666bbfa913d5cd2a069e5c18edc4b () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.183 * Freeing outbound link to node 3dcea49aecc401816c6f32f070029fea63cda28b () after receiving a MEET packet from this known node
+1:M 28 Jul 2026 02:31:08.201 * Node 2d8b55da5144619791c671bb8cf5a3d093c40075 () is no longer primary of shard 8cfbb7bb165ea938d847be6f3dba08794ab404c8; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.201 * Node 2d8b55da5144619791c671bb8cf5a3d093c40075 () is now part of shard 6f467ef0153aa586d0c1b95a034f2225e6cbdf41
+1:M 28 Jul 2026 02:31:08.202 * Node 2d8b55da5144619791c671bb8cf5a3d093c40075 () is now a replica of node 7af12c56dbaf453a90eac4308c0381e6e523be17 () in shard 6f467ef0153aa586d0c1b95a034f2225e6cbdf41
+1:M 28 Jul 2026 02:31:08.248 * Node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () is no longer primary of shard 95357b5a78d3970ca1172d6218e87ab73dc2a10c; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.248 * Node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () is now part of shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:M 28 Jul 2026 02:31:08.248 * Node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () is now a replica of node 297f19bae932c1c3cbbe8c49309e0a0299329f7c () in shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:M 28 Jul 2026 02:31:08.317 * Node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () is no longer primary of shard 29085a7a37c340305a477e511352a6011d5ebbf4; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.317 * Node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () is now part of shard 32c43e406be2d2088928e6a26097849163186bed
+1:M 28 Jul 2026 02:31:08.318 * Node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () is now a replica of node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () in shard 32c43e406be2d2088928e6a26097849163186bed
+1:M 28 Jul 2026 02:31:08.349 * Node 485ac6326fa59e17338be9595a2c7e20de7496b6 () is no longer primary of shard 921dd1415ff94e5b2057887e45675fbe3c512a39; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.349 * Node 485ac6326fa59e17338be9595a2c7e20de7496b6 () is now part of shard 4069140c9f67c9976bce714778abd30231af496c
+1:M 28 Jul 2026 02:31:08.349 * Node 485ac6326fa59e17338be9595a2c7e20de7496b6 () is now a replica of node 11206996aa4fcb134fc1450c61e1b77fd1554313 () in shard 4069140c9f67c9976bce714778abd30231af496c
+1:M 28 Jul 2026 02:31:08.400 * Node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () is no longer primary of shard ccaa9afcc86489f07351648e514c4651e787cd40; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.400 * Node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () is now part of shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:M 28 Jul 2026 02:31:08.400 * Node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () is now a replica of node 91462d5c46d4f689c816acbd1bafc885d719ebdf () in shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:M 28 Jul 2026 02:31:08.400 * Node 19267d63c5c3b034be62452b739e693f976246e8 () is no longer primary of shard 67efefcb91c2b02c632a4387da60272ae620dc32; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.400 * Node 19267d63c5c3b034be62452b739e693f976246e8 () is now part of shard 6ecb2c2cc9a06793d78f2c3cff9f12b5da9b04ca
+1:M 28 Jul 2026 02:31:08.400 * Node 19267d63c5c3b034be62452b739e693f976246e8 () is now a replica of node 1377c162e23ebb1d1968d56982381297190b12f0 () in shard 6ecb2c2cc9a06793d78f2c3cff9f12b5da9b04ca
+1:M 28 Jul 2026 02:31:08.421 * Node 32de53c275041a32b70fa3a1a78909a5dbc79f31 () is no longer primary of shard e1357d41965e53dcb3ccfc4ebe1e178392d4fc8c; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.421 * Node 32de53c275041a32b70fa3a1a78909a5dbc79f31 () is now part of shard b10989c487841bfc8f5a00be639d039a9586acb6
+1:M 28 Jul 2026 02:31:08.421 * Node 32de53c275041a32b70fa3a1a78909a5dbc79f31 () is now a replica of node f68002154c31f604c6c390b71ca5de140dd52fd9 () in shard b10989c487841bfc8f5a00be639d039a9586acb6
+1:M 28 Jul 2026 02:31:08.446 * Node a9847f0b7ddd80dd39278494af56404062388804 () is no longer primary of shard 96d8b8579262eb944e84a61ad92fed05726d9b0a; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.446 * Node a9847f0b7ddd80dd39278494af56404062388804 () is now part of shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:M 28 Jul 2026 02:31:08.446 * Node a9847f0b7ddd80dd39278494af56404062388804 () is now a replica of node 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 () in shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:M 28 Jul 2026 02:31:08.477 * Node af9224f6c6b3997f3174cb05a62c89ceaf03f742 () is no longer primary of shard 10d8a007b91e79b279753607232c5bcb0436cadd; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.477 * Node af9224f6c6b3997f3174cb05a62c89ceaf03f742 () is now part of shard 3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15
+1:M 28 Jul 2026 02:31:08.477 * Node af9224f6c6b3997f3174cb05a62c89ceaf03f742 () is now a replica of node eda04462ed7666bbfa913d5cd2a069e5c18edc4b () in shard 3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15
+1:M 28 Jul 2026 02:31:08.516 * Node 81487c0f773ac8ae9815f23483de9a68c9fe2906 () is no longer primary of shard 7e580cc2b37c1b3deca4917ed02c00743d85b206; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.516 * Node 81487c0f773ac8ae9815f23483de9a68c9fe2906 () is now part of shard b8a9c44ceb30b3179a7bc251382b3d62180165cd
+1:M 28 Jul 2026 02:31:08.516 * Node 81487c0f773ac8ae9815f23483de9a68c9fe2906 () is now a replica of node 4c3b73d091cba61cccbf9ec390d61d8c32c3be53 () in shard b8a9c44ceb30b3179a7bc251382b3d62180165cd
+1:M 28 Jul 2026 02:31:08.565 * Node f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 () is no longer primary of shard 78bde813f2f88fb692e43d566aa3c1009fd0c27c; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.565 * Node f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 () is now part of shard 87894ddbdc93b64b7eb9f878942726b6766e8200
+1:M 28 Jul 2026 02:31:08.565 * Node f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 () is now a replica of node d6b970fb996252a329b28befa5da9b3a0de5cbd6 () in shard 87894ddbdc93b64b7eb9f878942726b6766e8200
+1:M 28 Jul 2026 02:31:08.565 * Node 77e576d14f53cacc8b413c32ef73a4748ed72c35 () is no longer primary of shard b952143726648b74595a2067414d71c1f6211531; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.565 * Node 77e576d14f53cacc8b413c32ef73a4748ed72c35 () is now part of shard 075375405e6538e3228a69dad58ae899c500ace3
+1:M 28 Jul 2026 02:31:08.565 * Node 77e576d14f53cacc8b413c32ef73a4748ed72c35 () is now a replica of node f6625cba8c046b6d1bb994e59d8b1d24054f53c8 () in shard 075375405e6538e3228a69dad58ae899c500ace3
+1:M 28 Jul 2026 02:31:08.565 * Node e8ddc1fc4f148fccdf7188ebcab1251bca7d0b03 () is no longer primary of shard 99f6628a97f30f46dbea4a828727906c6179ae37; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.565 * Node e8ddc1fc4f148fccdf7188ebcab1251bca7d0b03 () is now part of shard 9818cf0aab2d7a576d1c6f544769155117501059
+1:M 28 Jul 2026 02:31:08.565 * Node e8ddc1fc4f148fccdf7188ebcab1251bca7d0b03 () is now a replica of node b3bda9ded66705c6f4ef9ec90165780261c9a774 () in shard 9818cf0aab2d7a576d1c6f544769155117501059
+1:M 28 Jul 2026 02:31:08.628 * Node 9ca43c9a5b873f2f270d2f492af19fce1f1b0cab () is no longer primary of shard e72dacff6bec5e681b54df3a2e5672225018d975; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.628 * Node 9ca43c9a5b873f2f270d2f492af19fce1f1b0cab () is now part of shard 5ac13db7c17aff53c6e53259cf1562c9616834b4
+1:M 28 Jul 2026 02:31:08.628 * Node 9ca43c9a5b873f2f270d2f492af19fce1f1b0cab () is now a replica of node 2b8102351d06cb7da0724a18c835db8a8e689452 () in shard 5ac13db7c17aff53c6e53259cf1562c9616834b4
+1:M 28 Jul 2026 02:31:08.628 * Node 25cbe30aa8f75982942e36df0cfbe6f1ba2f4fad () is no longer primary of shard 7ac9e7b2914217a0a8c2b70adf5b73b538887421; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.628 * Node 25cbe30aa8f75982942e36df0cfbe6f1ba2f4fad () is now part of shard acf022a55590d83c45583a7a6d78a3b7a94983cb
+1:M 28 Jul 2026 02:31:08.628 * Node 25cbe30aa8f75982942e36df0cfbe6f1ba2f4fad () is now a replica of node d14a79794e64afb37a60bedbfc01bbd3e7b8a762 () in shard acf022a55590d83c45583a7a6d78a3b7a94983cb
+1:M 28 Jul 2026 02:31:08.697 * Node d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () is no longer primary of shard 6583d207d01334f6d1ed53d1066b92ca4d89ea61; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.697 * Node d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () is now part of shard 4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3
+1:M 28 Jul 2026 02:31:08.697 * Node d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () is now a replica of node 897f4d19f1411bd802339b82af8f53346ffe7b4d () in shard 4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3
+1:M 28 Jul 2026 02:31:08.697 * Node e8288695c5a593fe5a0c11c47d868354a88051cc () is no longer primary of shard 7a710711d859617254f2345224235c0ea914fd69; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.697 * Node e8288695c5a593fe5a0c11c47d868354a88051cc () is now part of shard 9b5960f4283de70a25b57c7196754e60a62a4da5
+1:M 28 Jul 2026 02:31:08.697 * Node e8288695c5a593fe5a0c11c47d868354a88051cc () is now a replica of node 8ff391cde62ac35da285a880fe39c0040ae55297 () in shard 9b5960f4283de70a25b57c7196754e60a62a4da5
+1:M 28 Jul 2026 02:31:08.737 * Node b1a8885405e9f0cf0198ac3b59cc78334655951e () is no longer primary of shard 66277803c5cf69bf978ed89994ad0c237ff7169a; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.737 * Node b1a8885405e9f0cf0198ac3b59cc78334655951e () is now part of shard dff3179cfe139682dd5b35c7580a93d24d27c3dd
+1:M 28 Jul 2026 02:31:08.737 * Node b1a8885405e9f0cf0198ac3b59cc78334655951e () is now a replica of node d7596d758dd12949a868078140cfade9aa56cd80 () in shard dff3179cfe139682dd5b35c7580a93d24d27c3dd
+1:M 28 Jul 2026 02:31:08.768 * Node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () is no longer primary of shard 05daa1f3d7ab4bc1be030f59c2c0c7b9ec4e1e51; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.768 * Node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () is now part of shard d17da985b5a58feed4de8b384d83fb1222722938
+1:M 28 Jul 2026 02:31:08.768 * Node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () is now a replica of node 53aab6310f61f156758427c2a67c74b51cfc2887 () in shard d17da985b5a58feed4de8b384d83fb1222722938
+1:M 28 Jul 2026 02:31:08.768 * Node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () is no longer primary of shard ca0774933d961a5ca669e0c96e434a9ac04aa715; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.768 * Node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () is now part of shard 1f1730c03293666312fb6e2e8370621227fb9332
+1:M 28 Jul 2026 02:31:08.768 * Node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () is now a replica of node a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 () in shard 1f1730c03293666312fb6e2e8370621227fb9332
+1:M 28 Jul 2026 02:31:08.819 * Node 3231ee2d6ed1cebbca42e3bb7ba3f492c800c1c0 () is no longer primary of shard d9a07871045973ae6afa12e77e3315ef37280cc9; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.819 * Node 3231ee2d6ed1cebbca42e3bb7ba3f492c800c1c0 () is now part of shard 0d19a7e08628c7684c371051c5e042cb703632e4
+1:M 28 Jul 2026 02:31:08.819 * Node 3231ee2d6ed1cebbca42e3bb7ba3f492c800c1c0 () is now a replica of node 043cb3eaf2dce8760506fd276cd505289f8349cc () in shard 0d19a7e08628c7684c371051c5e042cb703632e4
+1:M 28 Jul 2026 02:31:08.855 * Node 782c0dac7de57b958337a52ff780be56f96cc9ab () is no longer primary of shard 5860698bd95e56f4fe69b3ed31884da4f666c2ca; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.855 * Node 782c0dac7de57b958337a52ff780be56f96cc9ab () is now part of shard e687edbcab379eb06397d144fd22d9f0d8b21133
+1:M 28 Jul 2026 02:31:08.855 * Node 782c0dac7de57b958337a52ff780be56f96cc9ab () is now a replica of node a0a21655d6a1ae1d56717571598f731d815ec22c () in shard e687edbcab379eb06397d144fd22d9f0d8b21133
+1:M 28 Jul 2026 02:31:08.880 * Node 1f729d497177a475cad5ff227b6b52c03393b2e3 () is no longer primary of shard 6220e3c9c79bba148058be893c5bcfee28a7fc28; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.880 * Node 1f729d497177a475cad5ff227b6b52c03393b2e3 () is now part of shard 2213ac2bc62566111f055dc88b4c15b0638ed1af
+1:M 28 Jul 2026 02:31:08.880 * Node 1f729d497177a475cad5ff227b6b52c03393b2e3 () is now a replica of node d7781ef484f388b3b6d54912e5fdefe9391ca53b () in shard 2213ac2bc62566111f055dc88b4c15b0638ed1af
+1:M 28 Jul 2026 02:31:08.898 * Node 26157fdb9cdd79e00740e39a03c7e2dd298a42d6 () is no longer primary of shard 1987674bf45e111b51282078e5e039689468fcc4; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.898 * Node 26157fdb9cdd79e00740e39a03c7e2dd298a42d6 () is now part of shard 4afe26041db6af568b81298ed1b5dddd91d2928e
+1:M 28 Jul 2026 02:31:08.898 * Node 26157fdb9cdd79e00740e39a03c7e2dd298a42d6 () is now a replica of node 1b42b1b2814cd4cdf845c58d3dee8b06bdc1e2fa () in shard 4afe26041db6af568b81298ed1b5dddd91d2928e
+1:M 28 Jul 2026 02:31:08.934 * Node a34f88b3c0a2a77332e1b336f504dddc627aede4 () is no longer primary of shard 917a44e6e7b67480fbdd42a55b3eb69cd0377fe4; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.934 * Node a34f88b3c0a2a77332e1b336f504dddc627aede4 () is now part of shard 96ebe13015200e2f82feb484ad7b630fd12ad1e2
+1:M 28 Jul 2026 02:31:08.934 * Node a34f88b3c0a2a77332e1b336f504dddc627aede4 () is now a replica of node 3e8507f76ce24e3c05b1773367229e46dbd6b9e4 () in shard 96ebe13015200e2f82feb484ad7b630fd12ad1e2
+1:M 28 Jul 2026 02:31:08.966 * Node 59f20449ceca23f95676b637ee019862bf57e3e8 () is no longer primary of shard 445acf1d9138c3aa33981472c9c9d5d56f5bc414; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.966 * Node 59f20449ceca23f95676b637ee019862bf57e3e8 () is now part of shard 5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09
+1:M 28 Jul 2026 02:31:08.966 * Node 59f20449ceca23f95676b637ee019862bf57e3e8 () is now a replica of node 5427d443812b4875185e1be099e7ec3196bd9e55 () in shard 5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09
+1:M 28 Jul 2026 02:31:08.996 * Node 5bc3cdb4dd2707e60a01d8dcfdfddcb492d1cdcf () is no longer primary of shard 813141af14a41602cf90368b8df766062fdc5c61; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:08.996 * Node 5bc3cdb4dd2707e60a01d8dcfdfddcb492d1cdcf () is now part of shard 5c5732fd3b1f55735ce84e335492b3e026a0db43
+1:M 28 Jul 2026 02:31:08.996 * Node 5bc3cdb4dd2707e60a01d8dcfdfddcb492d1cdcf () is now a replica of node d82cfaa3d55f79b9be1bfd2a8a3b9c205545cf3c () in shard 5c5732fd3b1f55735ce84e335492b3e026a0db43
+1:M 28 Jul 2026 02:31:09.035 * Node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () is no longer primary of shard 22a55036f9faf45d09d8d3e9ec55160f8ff522c5; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.035 * Node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () is now part of shard ed38d124e0509d98c13129a4b1a513315eb0f63e
+1:M 28 Jul 2026 02:31:09.035 * Node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () is now a replica of node 9af6004abaae9fca1446b47c324adcdb70e5a493 () in shard ed38d124e0509d98c13129a4b1a513315eb0f63e
+1:M 28 Jul 2026 02:31:09.060 * Node 535f95685df0883fd0c118fc44a09655fe0570ad () is no longer primary of shard c7a7afbc31240b21ddeae09e54d6bf957ee70b02; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.060 * Node 535f95685df0883fd0c118fc44a09655fe0570ad () is now part of shard 7fcfb0caf9d26d28580b9ae161ebe57c99fce995
+1:M 28 Jul 2026 02:31:09.060 * Node 535f95685df0883fd0c118fc44a09655fe0570ad () is now a replica of node b89efb2979df9746755510be7f43f627833d2e80 () in shard 7fcfb0caf9d26d28580b9ae161ebe57c99fce995
+1:M 28 Jul 2026 02:31:09.088 * Node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () is no longer primary of shard c099a29e6cb79de550981acb394966c7101cb067; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.088 * Node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () is now part of shard 54722357347eabd60b46e009cb824e819c639b5f
+1:M 28 Jul 2026 02:31:09.088 * Node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () is now a replica of node 4861be930809bc8dcd53f03e268f7a44b9371d35 () in shard 54722357347eabd60b46e009cb824e819c639b5f
+1:M 28 Jul 2026 02:31:09.134 * Node 45690b52f7d2661fa983771a9cc9367851f84ee5 () is no longer primary of shard 4d0fae4ab63aa95d80198a9eac497eb1ff757373; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.134 * Node 45690b52f7d2661fa983771a9cc9367851f84ee5 () is now part of shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:M 28 Jul 2026 02:31:09.134 * Node 45690b52f7d2661fa983771a9cc9367851f84ee5 () is now a replica of node a106173d75a7c194fc248d3b52e4b033f6c3ce81 () in shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:M 28 Jul 2026 02:31:09.163 * Node bb8051f01b5d85c21e5f310bd9f3b6abeeefe9e2 () is no longer primary of shard 13ca6257244b98b906319656750920686e0221e4; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.163 * Node bb8051f01b5d85c21e5f310bd9f3b6abeeefe9e2 () is now part of shard 3cbe77684b1375f000de2be14bd567fd43813bb0
+1:M 28 Jul 2026 02:31:09.163 * Node bb8051f01b5d85c21e5f310bd9f3b6abeeefe9e2 () is now a replica of node ae7cf753f52f7384bc1084c5adeb691572b27869 () in shard 3cbe77684b1375f000de2be14bd567fd43813bb0
+1:M 28 Jul 2026 02:31:09.207 * Node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () is no longer primary of shard 06ad0b6fca9978fb01c64f33a130746032cbdb2d; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.207 * Node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () is now part of shard ff2088e9463bddb05136636a9b3d2e6922470d34
+1:M 28 Jul 2026 02:31:09.207 * Node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () is now a replica of node b17d42107957413c3afa216b0fd2a40efd894914 () in shard ff2088e9463bddb05136636a9b3d2e6922470d34
+1:M 28 Jul 2026 02:31:09.207 * Node ca1c92679341c847bd24a1baf020f3931146dede () is no longer primary of shard 8ea30d86694672a7c5cdbdd9fbf47ccc35677fbe; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.207 * Node ca1c92679341c847bd24a1baf020f3931146dede () is now part of shard d062b5ab2273b1ec1dc918821b70c481da4173d7
+1:M 28 Jul 2026 02:31:09.207 * Node ca1c92679341c847bd24a1baf020f3931146dede () is now a replica of node aa34ea70a67865b6e155de387193f9bad86e88ad () in shard d062b5ab2273b1ec1dc918821b70c481da4173d7
+1:M 28 Jul 2026 02:31:09.228 * Replica 127.0.0.1:43083 asks for synchronization
+1:M 28 Jul 2026 02:31:09.228 * Full resync requested by replica 127.0.0.1:43083
+1:M 28 Jul 2026 02:31:09.228 * Replication backlog created, my new replication IDs are '0dbab81f3014d7c927a81c7c5b5221907d75ca61' and '0000000000000000000000000000000000000000'
+1:M 28 Jul 2026 02:31:09.228 * Delay next BGSAVE for diskless SYNC
+1:M 28 Jul 2026 02:31:09.251 * Node 7f20e7764845bf5654d1596274d0ca97bd04e111 () is no longer primary of shard d7bb50480f4356b402d8bd7a0288b7cdf7baf055; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.251 * Node 7f20e7764845bf5654d1596274d0ca97bd04e111 () is now part of shard 8c5cc9b2e62527b8ab13ab4390d07762110f7351
+1:M 28 Jul 2026 02:31:09.251 * Node 7f20e7764845bf5654d1596274d0ca97bd04e111 () is now a replica of node 13a930c01bffcb8daf5144ad671e3768dd678212 () in shard 8c5cc9b2e62527b8ab13ab4390d07762110f7351
+1:M 28 Jul 2026 02:31:09.286 * Node 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () is no longer primary of shard ddc2eb38eaa9b2f06d0a739ee04ba0fd8c5823c9; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.286 * Node 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () is now part of shard a6a7a2c30ed57bd3aedd78380bdda290c99301d0
+1:M 28 Jul 2026 02:31:09.286 * Node 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () is now a replica of node af2c78fadbd09497d85d42a74fceb01b80950ed7 () in shard a6a7a2c30ed57bd3aedd78380bdda290c99301d0
+1:M 28 Jul 2026 02:31:09.311 * Node c0a5722dac9e1423a04ebf655541420084ae8b4b () is no longer primary of shard 2104da0e3727f93be421ec4e3d7200d54e94fc23; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.311 * Node c0a5722dac9e1423a04ebf655541420084ae8b4b () is now part of shard 4d3be97075c54072c232fb80bc17d3cee950f0af
+1:M 28 Jul 2026 02:31:09.311 * Node c0a5722dac9e1423a04ebf655541420084ae8b4b () is now a replica of node 3ddb1fe2068972118cc55983341295f829d715cc () in shard 4d3be97075c54072c232fb80bc17d3cee950f0af
+1:M 28 Jul 2026 02:31:09.347 * Node 56e31b46022430fc0432bf9eb84f76367ee78d29 () is no longer primary of shard 3b9f2d143511d81c7be06dbb50da607a3276296e; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.347 * Node 56e31b46022430fc0432bf9eb84f76367ee78d29 () is now part of shard 2545989db1289eb45d89d68b7d8b4934033076a0
+1:M 28 Jul 2026 02:31:09.347 * Node 56e31b46022430fc0432bf9eb84f76367ee78d29 () is now a replica of node 021ff45debda42c9d0c6ec4d38697756bc7282c9 () in shard 2545989db1289eb45d89d68b7d8b4934033076a0
+1:M 28 Jul 2026 02:31:09.369 * Node 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () is no longer primary of shard a9cc3b0c759f453903f47af303f0a3af9324f1b6; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.369 * Node 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () is now part of shard 781de74fc9433d569412373fa62daba430f16466
+1:M 28 Jul 2026 02:31:09.369 * Node 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () is now a replica of node 240468e94b853b3840656169a90180cbb8320045 () in shard 781de74fc9433d569412373fa62daba430f16466
+1:M 28 Jul 2026 02:31:09.369 * Node 2a25af3783aae4da6f874f2529630bbd65d4a366 () is no longer primary of shard 6b5dc2a17cdfb8e20ca1ea0788fb11d9aacf235b; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.369 * Node 2a25af3783aae4da6f874f2529630bbd65d4a366 () is now part of shard f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20
+1:M 28 Jul 2026 02:31:09.369 * Node 2a25af3783aae4da6f874f2529630bbd65d4a366 () is now a replica of node 66b22648b675bd3ba177c193c35be786d2a59ebb () in shard f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20
+1:M 28 Jul 2026 02:31:09.399 * Node c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 () is no longer primary of shard e15e2599ca2f76af48310df38baffb3911ca72cb; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.399 * Node c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 () is now part of shard 765307815d3def2cbc18aba6936aefa372ae660b
+1:M 28 Jul 2026 02:31:09.399 * Node c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 () is now a replica of node 3254898e3777ca0d91b820709852d139713cff04 () in shard 765307815d3def2cbc18aba6936aefa372ae660b
+1:M 28 Jul 2026 02:31:09.455 * Node 750d0d274daeb523c13bc398f9db981451ca4d74 () is no longer primary of shard 34dcdf996680e096569ad2330c4dcd7ccba7be8d; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.455 * Node 750d0d274daeb523c13bc398f9db981451ca4d74 () is now part of shard f759289807839578713497843a5e0e2b7100e2bb
+1:M 28 Jul 2026 02:31:09.455 * Node 750d0d274daeb523c13bc398f9db981451ca4d74 () is now a replica of node 47332c36b84f555b239fdaa5c549b52936b2240b () in shard f759289807839578713497843a5e0e2b7100e2bb
+1:M 28 Jul 2026 02:31:09.473 * Node eb1adddd867d0abf5057c145297088713e01ff60 () is no longer primary of shard 05fb2a3f5eeb164ba1d28275373ed4287a3d4d2d; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.476 * Node eb1adddd867d0abf5057c145297088713e01ff60 () is now part of shard 11c3bba5a76fb49eab79dc65a5350bc1c3831cc3
+1:M 28 Jul 2026 02:31:09.476 * Node eb1adddd867d0abf5057c145297088713e01ff60 () is now a replica of node 8680331d5f51caf2640170260bddd0f2ba300682 () in shard 11c3bba5a76fb49eab79dc65a5350bc1c3831cc3
+1:M 28 Jul 2026 02:31:09.519 * Node 4abc87c900864bc266d53d245e18cf923546f546 () is no longer primary of shard 6a94cfb28db4212957dd765d1366fb0c23bb9ced; removed all 0 slot(s) it used to own
+1:M 28 Jul 2026 02:31:09.519 * Node 4abc87c900864bc266d53d245e18cf923546f546 () is now part of shard e1f06c898fa17e1976b4b452dd7c865b6afc76b1
+1:M 28 Jul 2026 02:31:09.519 * Node 4abc87c900864bc266d53d245e18cf923546f546 () is now a replica of node 9865788c3cf3d5f80a9c0e012e6b78d21241598d () in shard e1f06c898fa17e1976b4b452dd7c865b6afc76b1
+1:M 28 Jul 2026 02:31:14.935 * Starting BGSAVE for SYNC with target: replicas sockets using: normal sync
+1:M 28 Jul 2026 02:31:14.936 * Background RDB transfer started by pid 18 to pipe through parent process
+18:C 28 Jul 2026 02:31:14.936 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 28 Jul 2026 02:31:14.937 * Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+1:M 28 Jul 2026 02:31:15.039 * Background RDB transfer terminated with success
+1:M 28 Jul 2026 02:31:15.039 * Streamed RDB transfer with replica 127.0.0.1:43083 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 28 Jul 2026 02:31:15.039 * Synchronization with replica 127.0.0.1:43083 succeeded
+1:M 28 Jul 2026 02:33:53.616 * Sending MEET packet to node 66b22648b675bd3ba177c193c35be786d2a59ebb () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:53.617 * Sending MEET packet to node 897f4d19f1411bd802339b82af8f53346ffe7b4d () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:53.617 * Sending MEET packet to node a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.023 * Sending MEET packet to node 3254898e3777ca0d91b820709852d139713cff04 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.024 * Sending MEET packet to node a0a21655d6a1ae1d56717571598f731d815ec22c () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.227 * Sending MEET packet to node 9af6004abaae9fca1446b47c324adcdb70e5a493 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.328 * Sending MEET packet to node 13a930c01bffcb8daf5144ad671e3768dd678212 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.535 * Sending MEET packet to node 8ff391cde62ac35da285a880fe39c0040ae55297 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.535 * Sending MEET packet to node 8680331d5f51caf2640170260bddd0f2ba300682 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:54.943 * Sending MEET packet to node d2b987762bd0686a5d0102a9803ef96cb103ff9c () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:55.249 * Sending MEET packet to node 2b8102351d06cb7da0724a18c835db8a8e689452 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:55.249 * Sending MEET packet to node aa34ea70a67865b6e155de387193f9bad86e88ad () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:55.249 * Sending MEET packet to node f6625cba8c046b6d1bb994e59d8b1d24054f53c8 () because there is no inbound link for it
+1:M 28 Jul 2026 02:33:55.670 * FAIL message received from e8288695c5a593fe5a0c11c47d868354a88051cc () about 13a930c01bffcb8daf5144ad671e3768dd678212 ()
+1:M 28 Jul 2026 02:33:55.670 # Cluster state changed: fail
+1:M 28 Jul 2026 02:33:55.670 # Cluster is currently down: At least one hash slot is not served by any available node. Please check the 'cluster-require-full-coverage' configuration.
+1:M 28 Jul 2026 02:33:56.072 * Failover auth granted to 7f20e7764845bf5654d1596274d0ca97bd04e111 () for epoch 101
+1:M 28 Jul 2026 02:33:56.113 * Reconfiguring node 7f20e7764845bf5654d1596274d0ca97bd04e111 () as primary for shard 8c5cc9b2e62527b8ab13ab4390d07762110f7351
+1:M 28 Jul 2026 02:33:56.113 * Mismatch in topology information for sender node 7f20e7764845bf5654d1596274d0ca97bd04e111 () in shard 8c5cc9b2e62527b8ab13ab4390d07762110f7351
+1:M 28 Jul 2026 02:33:56.113 * Cluster state changed: ok
+1:M 28 Jul 2026 02:33:56.167 * FAIL message received from e8288695c5a593fe5a0c11c47d868354a88051cc () about af2c78fadbd09497d85d42a74fceb01b80950ed7 ()
+1:M 28 Jul 2026 02:33:56.167 # Cluster state changed: fail
+1:M 28 Jul 2026 02:33:56.167 # Cluster is currently down: At least one hash slot is not served by any available node. Please check the 'cluster-require-full-coverage' configuration.
+1:M 28 Jul 2026 02:33:56.594 * Marking node 8680331d5f51caf2640170260bddd0f2ba300682 () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Marking node 897f4d19f1411bd802339b82af8f53346ffe7b4d () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Marking node a0a21655d6a1ae1d56717571598f731d815ec22c () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Marking node 9af6004abaae9fca1446b47c324adcdb70e5a493 () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Marking node 3254898e3777ca0d91b820709852d139713cff04 () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Marking node aa34ea70a67865b6e155de387193f9bad86e88ad () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.595 * Failover auth granted to 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () for epoch 102
+1:M 28 Jul 2026 02:33:56.643 * Reconfiguring node 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () as primary for shard a6a7a2c30ed57bd3aedd78380bdda290c99301d0
+1:M 28 Jul 2026 02:33:56.643 * Mismatch in topology information for sender node 97300f8818bb1b33a6e5c8897ee75dc67c1b431d () in shard a6a7a2c30ed57bd3aedd78380bdda290c99301d0
+1:M 28 Jul 2026 02:33:56.643 * Marking node f6625cba8c046b6d1bb994e59d8b1d24054f53c8 () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.643 * Marking node eda04462ed7666bbfa913d5cd2a069e5c18edc4b () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.643 * Marking node 2b8102351d06cb7da0724a18c835db8a8e689452 () as failing (quorum reached).
+1:M 28 Jul 2026 02:33:56.665 * FAIL message received from d7781ef484f388b3b6d54912e5fdefe9391ca53b () about d2b987762bd0686a5d0102a9803ef96cb103ff9c ()
+1:M 28 Jul 2026 02:33:56.809 * Successfully completed handshake with 8ff391cde62ac35da285a880fe39c0040ae55297 ()
+1:M 28 Jul 2026 02:33:56.809 * PONG contains mismatching sender ID. About node 8ff391cde62ac35da285a880fe39c0040ae55297 () in shard 9b5960f4283de70a25b57c7196754e60a62a4da5 added 174454 ms ago, having flags 7429
+1:M 28 Jul 2026 02:33:56.809 * IP address for this node updated to 192.168.139.2
+
+
+=== VALKEY BUG REPORT START: Cut & paste starting from here ===
+1:M 28 Jul 2026 02:33:56.810 # === ASSERTION FAILED ===
+1:M 28 Jul 2026 02:33:56.810 # ==> cluster_legacy.c:3842 'link != sender->link' is not true
+
+------ STACK TRACE ------
+
+16 bio_rdb_save
+/lib/aarch64-linux-gnu/libc.so.6(+0x8ef6c) [0xffffb9aeef6c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x82618) [0xffffb9ae2618]
+/lib/aarch64-linux-gnu/libc.so.6(+0x829b0) [0xffffb9ae29b0]
+/lib/aarch64-linux-gnu/libc.so.6(pthread_cond_wait+0x164) [0xffffb9ae53ac]
+valkey-server *:43032 [cluster](bioProcessBackgroundJobs+0x178) [0xaaaaaed51f08]
+/lib/aarch64-linux-gnu/libc.so.6(+0x85f38) [0xffffb9ae5f38]
+/lib/aarch64-linux-gnu/libc.so.6(+0xedc2c) [0xffffb9b4dc2c]
+
+13 bio_close_file
+/lib/aarch64-linux-gnu/libc.so.6(+0x8ef6c) [0xffffb9aeef6c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x82618) [0xffffb9ae2618]
+/lib/aarch64-linux-gnu/libc.so.6(+0x829b0) [0xffffb9ae29b0]
+/lib/aarch64-linux-gnu/libc.so.6(pthread_cond_wait+0x164) [0xffffb9ae53ac]
+valkey-server *:43032 [cluster](bioProcessBackgroundJobs+0x178) [0xaaaaaed51f08]
+/lib/aarch64-linux-gnu/libc.so.6(+0x85f38) [0xffffb9ae5f38]
+/lib/aarch64-linux-gnu/libc.so.6(+0xedc2c) [0xffffb9b4dc2c]
+
+1 valkey-server *
+valkey-server *:43032 [cluster](clusterProcessPacket+0x15f4) [0xaaaaaed39ff4]
+valkey-server *:43032 [cluster](clusterReadHandler+0x12c) [0xaaaaaed3a3ac]
+valkey-server *:43032 [cluster](+0x1ffeec) [0xaaaaaedcfeec]
+valkey-server *:43032 [cluster](aeMain+0x94) [0xaaaaaec6d978]
+valkey-server *:43032 [cluster](main+0x4ac) [0xaaaaaec633cc]
+/lib/aarch64-linux-gnu/libc.so.6(+0x2225c) [0xffffb9a8225c]
+/lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x9c) [0xffffb9a8233c]
+valkey-server *:43032 [cluster](_start+0x30) [0xaaaaaec63bf0]
+
+14 bio_aof
+/lib/aarch64-linux-gnu/libc.so.6(+0x8ef6c) [0xffffb9aeef6c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x82618) [0xffffb9ae2618]
+/lib/aarch64-linux-gnu/libc.so.6(+0x829b0) [0xffffb9ae29b0]
+/lib/aarch64-linux-gnu/libc.so.6(pthread_cond_wait+0x164) [0xffffb9ae53ac]
+valkey-server *:43032 [cluster](bioProcessBackgroundJobs+0x178) [0xaaaaaed51f08]
+/lib/aarch64-linux-gnu/libc.so.6(+0x85f38) [0xffffb9ae5f38]
+/lib/aarch64-linux-gnu/libc.so.6(+0xedc2c) [0xffffb9b4dc2c]
+
+15 bio_lazy_free
+/lib/aarch64-linux-gnu/libc.so.6(+0x8ef6c) [0xffffb9aeef6c]
+/lib/aarch64-linux-gnu/libc.so.6(+0x82618) [0xffffb9ae2618]
+/lib/aarch64-linux-gnu/libc.so.6(+0x829b0) [0xffffb9ae29b0]
+/lib/aarch64-linux-gnu/libc.so.6(pthread_cond_wait+0x164) [0xffffb9ae53ac]
+valkey-server *:43032 [cluster](bioProcessBackgroundJobs+0x178) [0xaaaaaed51f08]
+/lib/aarch64-linux-gnu/libc.so.6(+0x85f38) [0xffffb9ae5f38]
+/lib/aarch64-linux-gnu/libc.so.6(+0xedc2c) [0xffffb9b4dc2c]
+
+5/5 expected stacktraces.
+
+------ STACK TRACE DONE ------
+
+------ INFO OUTPUT ------
+# Server
+redis_version:7.2.4
+server_name:valkey
+valkey_version:9.0.5
+valkey_release_stage:ga
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:5cc62005049790f0
+server_mode:cluster
+os:Linux 7.0.11-orbstack-00360-gc9bc4d96ac70 aarch64
+arch_bits:64
+monotonic_clock:POSIX clock_gettime
+multiplexing_api:epoll
+gcc_version:14.2.0
+process_id:1
+process_supervised:no
+run_id:86470bf374252ce89cc6539edce5a5745117bfdd
+tcp_port:43032
+server_time_usec:1785206036809111
+uptime_in_seconds:284
+uptime_in_days:0
+hz:10
+configured_hz:10
+clients_hz:10
+lru_clock:6821140
+executable:/data/valkey-server
+config_file:/data/node.conf
+io_threads_active:0
+availability_zone:
+listener0:name=tcp,bind=*,bind=-::*,port=43032
+
+# Clients
+connected_clients:0
+cluster_connections:198
+maxclients:10000
+client_recent_max_input_buffer:0
+client_recent_max_output_buffer:20504
+blocked_clients:0
+tracking_clients:0
+pubsub_clients:0
+watching_clients:0
+clients_in_timeout_table:0
+total_watched_keys:0
+total_blocking_keys:0
+total_blocking_keys_on_nokey:0
+paused_reason:none
+paused_actions:none
+paused_timeout_milliseconds:0
+
+# Memory
+used_memory:3546248
+used_memory_human:3.38M
+used_memory_rss:8458240
+used_memory_rss_human:8.07M
+used_memory_peak:3863752
+used_memory_peak_human:3.68M
+used_memory_peak_perc:91.78%
+used_memory_overhead:2996620
+used_memory_startup:2486872
+used_memory_dataset:549628
+used_memory_dataset_perc:51.88%
+allocator_allocated:3900672
+allocator_active:11665408
+allocator_resident:15597568
+allocator_muzzy:0
+total_system_memory:16818024448
+total_system_memory_human:15.66G
+used_memory_lua:32768
+used_memory_vm_eval:32768
+used_memory_lua_human:32.00K
+used_memory_scripts_eval:0
+number_of_cached_scripts:0
+number_of_functions:0
+number_of_libraries:0
+used_memory_vm_functions:35840
+used_memory_vm_total:68608
+used_memory_vm_total_human:67.00K
+used_memory_functions:240
+used_memory_scripts:240
+used_memory_scripts_human:240B
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:2.99
+allocator_frag_bytes:7764736
+allocator_rss_ratio:1.34
+allocator_rss_bytes:3932160
+rss_overhead_ratio:0.54
+rss_overhead_bytes:-7139328
+mem_fragmentation_ratio:2.40
+mem_fragmentation_bytes:4929832
+mem_not_counted_for_evict:0
+mem_replication_backlog:20508
+mem_total_replication_buffers:20504
+mem_clients_slaves:0
+mem_clients_normal:0
+mem_cluster_links:226616
+mem_cluster_slot_import:0
+mem_cluster_slot_export:0
+mem_aof_buffer:0
+mem_allocator:jemalloc-5.3.0
+mem_overhead_db_hashtable_rehashing:0
+active_defrag_running:0
+lazyfree_pending_objects:0
+lazyfreed_objects:0
+
+# Persistence
+loading:0
+async_loading:0
+current_cow_peak:0
+current_cow_size:0
+current_cow_size_age:0
+current_fork_perc:0.00
+current_save_keys_processed:0
+current_save_keys_total:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1785205752
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:1
+rdb_current_bgsave_time_sec:-1
+rdb_saves:0
+rdb_last_cow_size:380928
+rdb_last_load_keys_expired:0
+rdb_last_load_keys_loaded:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_rewrites:0
+aof_rewrites_consecutive_failures:0
+aof_last_write_status:ok
+aof_last_cow_size:0
+module_fork_in_progress:0
+module_fork_last_cow_size:0
+slot_migration_fork_in_progress:0
+
+# Stats
+total_connections_received:4
+total_commands_processed:175
+instantaneous_ops_per_sec:0
+total_net_input_bytes:9817
+total_net_output_bytes:48913
+total_net_repl_input_bytes:0
+total_net_repl_output_bytes:469
+total_net_cluster_slot_import_bytes:0
+total_net_cluster_slot_export_bytes:0
+instantaneous_input_kbps:0.02
+instantaneous_output_kbps:0.00
+instantaneous_input_repl_kbps:0.00
+instantaneous_output_repl_kbps:0.00
+rejected_connections:0
+sync_full:1
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_fields:0
+expired_stale_perc:0.00
+expired_keys_with_volatile_items_stale_perc:0.00
+expired_time_cap_reached_count:0
+expire_cycle_cpu_milliseconds:1
+evicted_keys:0
+evicted_clients:0
+evicted_scripts:0
+total_eviction_exceeded_time:0
+current_eviction_exceeded_time:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+pubsubshard_channels:0
+latest_fork_usec:351
+total_forks:1
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+total_active_defrag_time:0
+current_active_defrag_time:0
+tracking_total_keys:0
+tracking_total_items:0
+tracking_total_prefixes:0
+unexpected_error_replies:0
+total_error_replies:0
+dump_payload_sanitizations:0
+total_reads_processed:176
+total_writes_processed:29
+io_threaded_reads_processed:0
+io_threaded_writes_processed:0
+io_threaded_freed_objects:0
+io_threaded_accept_processed:0
+io_threaded_poll_processed:0
+io_threaded_total_prefetch_batches:0
+io_threaded_total_prefetch_entries:0
+client_query_buffer_limit_disconnections:0
+client_output_buffer_limit_disconnections:0
+reply_buffer_shrinks:2
+reply_buffer_expands:1
+eventloop_cycles:8014
+eventloop_duration_sum:2002025
+eventloop_duration_cmd_sum:713
+instantaneous_eventloop_cycles_per_sec:91
+instantaneous_eventloop_duration_usec:749
+acl_access_denied_auth:0
+acl_access_denied_cmd:0
+acl_access_denied_key:0
+acl_access_denied_channel:0
+acl_access_denied_tls_cert:0
+
+# Replication
+role:master
+connected_slaves:1
+slave0:ip=127.0.0.1,port=43083,state=online,offset=224,lag=1,type=replica
+replicas_waiting_psync:0
+master_failover_state:no-failover
+master_replid:0dbab81f3014d7c927a81c7c5b5221907d75ca61
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:224
+second_repl_offset:-1
+repl_backlog_active:1
+repl_backlog_size:10485760
+repl_backlog_first_byte_offset:1
+repl_backlog_histlen:224
+
+# CPU
+used_cpu_sys:0.522536
+used_cpu_user:0.327580
+used_cpu_sys_children:0.001441
+used_cpu_user_children:0.001480
+used_cpu_sys_main_thread:0.521511
+used_cpu_user_main_thread:0.327769
+
+# Modules
+
+# Commandstats
+cmdstat_cluster|meet:calls=1,usec=24,usec_per_call=24.00,rejected_calls=0,failed_calls=0
+cmdstat_cluster|addslots:calls=1,usec=13,usec_per_call=13.00,rejected_calls=0,failed_calls=0
+cmdstat_cluster|info:calls=1,usec=2,usec_per_call=2.00,rejected_calls=0,failed_calls=0
+cmdstat_cluster|nodes:calls=4,usec=381,usec_per_call=95.25,rejected_calls=0,failed_calls=0
+cmdstat_cluster|set-config-epoch:calls=1,usec=8,usec_per_call=8.00,rejected_calls=0,failed_calls=0
+cmdstat_psync:calls=1,usec=21,usec_per_call=21.00,rejected_calls=0,failed_calls=0
+cmdstat_replconf:calls=162,usec=220,usec_per_call=1.36,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=2,usec=3,usec_per_call=1.50,rejected_calls=0,failed_calls=0
+cmdstat_info:calls=2,usec=41,usec_per_call=20.50,rejected_calls=0,failed_calls=0
+
+# Errorstats
+
+# Latencystats
+latency_percentiles_usec_cluster|meet:p50=24.063,p99=24.063,p99.9=24.063
+latency_percentiles_usec_cluster|addslots:p50=13.055,p99=13.055,p99.9=13.055
+latency_percentiles_usec_cluster|info:p50=2.007,p99=2.007,p99.9=2.007
+latency_percentiles_usec_cluster|nodes:p50=92.159,p99=116.223,p99.9=116.223
+latency_percentiles_usec_cluster|set-config-epoch:p50=8.031,p99=8.031,p99.9=8.031
+latency_percentiles_usec_psync:p50=21.119,p99=21.119,p99.9=21.119
+latency_percentiles_usec_replconf:p50=1.003,p99=4.015,p99.9=102.399
+latency_percentiles_usec_ping:p50=1.003,p99=2.007,p99.9=2.007
+latency_percentiles_usec_info:p50=12.031,p99=29.055,p99.9=29.055
+
+# Cluster
+cluster_enabled:1
+
+# Keyspace
+
+# Cluster info
+cluster_state:fail
+cluster_slots_assigned:16384
+cluster_slots_ok:12124
+cluster_slots_pfail:656
+cluster_slots_fail:3604
+cluster_nodes_pfail:2
+cluster_nodes_fail:13
+cluster_voting_nodes_pfail:2
+cluster_voting_nodes_fail:11
+cluster_known_nodes:100
+cluster_size:50
+cluster_current_epoch:102
+cluster_my_epoch:33
+cluster_stats_messages_ping_sent:4240
+cluster_stats_messages_pong_sent:4454
+cluster_stats_messages_meet_sent:15
+cluster_stats_messages_fail_sent:987
+cluster_stats_messages_auth-ack_sent:2
+cluster_stats_messages_sent:9698
+cluster_stats_messages_ping_received:4440
+cluster_stats_messages_pong_received:4277
+cluster_stats_messages_meet_received:15
+cluster_stats_messages_fail_received:24
+cluster_stats_messages_auth-req_received:2
+cluster_stats_messages_received:8758
+total_cluster_links_buffer_limit_exceeded:0
+
+------ CLUSTER NODES OUTPUT ------
+eb1adddd867d0abf5057c145297088713e01ff60 127.0.0.1:43097@53097,,tls-port=0,shard-id=11c3bba5a76fb49eab79dc65a5350bc1c3831cc3 slave 8680331d5f51caf2640170260bddd0f2ba300682 0 1785206036000 11 connected
+81487c0f773ac8ae9815f23483de9a68c9fe2906 127.0.0.1:43065@53065,,tls-port=0,shard-id=b8a9c44ceb30b3179a7bc251382b3d62180165cd slave 4c3b73d091cba61cccbf9ec390d61d8c32c3be53 0 1785206035565 40 connected
+297f19bae932c1c3cbbe8c49309e0a0299329f7c 127.0.0.1:43027@53027,,tls-port=0,shard-id=f49d9c04ce857c2fed32aaf23ba52fff7946876c master - 0 1785206036379 28 connected 8847-9174
+8c831b56cb28e2433afd6a639b779f7cf73a8ecb 127.0.0.1:43051@53051,,tls-port=0,shard-id=29614ee19ea1b84d720c76dc2f0412b174d3b6d6 slave 718d830c262a23ffeb38e0f8f886b8a7639a7c0d 0 1785206035000 31 connected
+b3bda9ded66705c6f4ef9ec90165780261c9a774 127.0.0.1:43038@53038,,tls-port=0,shard-id=9818cf0aab2d7a576d1c6f544769155117501059 master - 0 1785206035000 39 connected 12452-12779
+59f20449ceca23f95676b637ee019862bf57e3e8 127.0.0.1:43081@53081,,tls-port=0,shard-id=5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09 slave 5427d443812b4875185e1be099e7ec3196bd9e55 0 1785206035566 49 connected
+66b22648b675bd3ba177c193c35be786d2a59ebb 127.0.0.1:43003@53003,,tls-port=0,shard-id=f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20 master,fail? - 1785206030540 1785206028000 4 connected 983-1310
+ae7cf753f52f7384bc1084c5adeb691572b27869 127.0.0.1:43029@53029,,tls-port=0,shard-id=3cbe77684b1375f000de2be14bd567fd43813bb0 master - 0 1785206035000 30 connected 9503-9829
+2a25af3783aae4da6f874f2529630bbd65d4a366 127.0.0.1:43095@53095,,tls-port=0,shard-id=f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20 slave 66b22648b675bd3ba177c193c35be786d2a59ebb 0 1785206035000 4 connected
+84cc001a0a60b9cc353c6373885b9a4df2bf0c05 127.0.0.1:43022@53022,,tls-port=0,shard-id=4287c9090d6e645b3a3e2a89f25b014df6112693 master - 0 1785206035000 23 connected 7209-7536
+d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c 127.0.0.1:43071@53071,,tls-port=0,shard-id=4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3 slave 897f4d19f1411bd802339b82af8f53346ffe7b4d 0 1785206035000 13 connected
+a3998998af2d03552bbd766206c5fd7ec8144f26 127.0.0.1:43050@53050,,tls-port=0,shard-id=cf4c4ae80787b5a48ceaad9efa4119b804987db3 slave dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 0 1785206035000 16 connected
+8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba 127.0.0.1:43060@53060,,tls-port=0,shard-id=e7a548fb030fdd770e86255cfa22d209e82e7461 slave 91462d5c46d4f689c816acbd1bafc885d719ebdf 0 1785206035566 19 connected
+4abc87c900864bc266d53d245e18cf923546f546 127.0.0.1:43099@53099,,tls-port=0,shard-id=e1f06c898fa17e1976b4b452dd7c865b6afc76b1 slave 9865788c3cf3d5f80a9c0e012e6b78d21241598d 0 1785206035000 41 connected
+11206996aa4fcb134fc1450c61e1b77fd1554313 127.0.0.1:43047@53047,,tls-port=0,shard-id=4069140c9f67c9976bce714778abd30231af496c master - 0 1785206035000 48 connected 15401-15728
+d6b970fb996252a329b28befa5da9b3a0de5cbd6 127.0.0.1:43045@53045,,tls-port=0,shard-id=87894ddbdc93b64b7eb9f878942726b6766e8200 master - 0 1785206036000 46 connected 14746-15072
+c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 127.0.0.1:43096@53096,,tls-port=0,shard-id=765307815d3def2cbc18aba6936aefa372ae660b slave 3254898e3777ca0d91b820709852d139713cff04 0 1785206036000 2 connected
+45690b52f7d2661fa983771a9cc9367851f84ee5 127.0.0.1:43086@53086,,tls-port=0,shard-id=fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3 slave a106173d75a7c194fc248d3b52e4b033f6c3ce81 0 1785206035000 26 connected
+57681be645364799c435291e3e6f970c6efc47c8 127.0.0.1:43054@53054,,tls-port=0,shard-id=8f41191bb0b54a0150d6d76fef5a54e15692409d slave 3dcea49aecc401816c6f32f070029fea63cda28b 0 1785206036000 34 connected
+8ff391cde62ac35da285a880fe39c0040ae55297 :0@0,,tls-port=0,shard-id=9b5960f4283de70a25b57c7196754e60a62a4da5 master,fail,noaddr - 1785206030540 1785206028000 33 disconnected 655-982
+3895c34265422f7dcf5c4ec6decdb10791e812d7 127.0.0.1:43085@53085,,tls-port=0,shard-id=54722357347eabd60b46e009cb824e819c639b5f slave 4861be930809bc8dcd53f03e268f7a44b9371d35 0 1785206035000 32 connected
+3231ee2d6ed1cebbca42e3bb7ba3f492c800c1c0 127.0.0.1:43076@53076,,tls-port=0,shard-id=0d19a7e08628c7684c371051c5e042cb703632e4 slave 043cb3eaf2dce8760506fd276cd505289f8349cc 0 1785206035000 47 connected
+718d830c262a23ffeb38e0f8f886b8a7639a7c0d 127.0.0.1:43030@53030,,tls-port=0,shard-id=29614ee19ea1b84d720c76dc2f0412b174d3b6d6 master - 0 1785206036000 31 connected 9830-10157
+97300f8818bb1b33a6e5c8897ee75dc67c1b431d 127.0.0.1:43091@53091,,tls-port=0,shard-id=a6a7a2c30ed57bd3aedd78380bdda290c99301d0 master - 0 1785206036000 102 connected 3604-3931
+d82cfaa3d55f79b9be1bfd2a8a3b9c205545cf3c 127.0.0.1:43024@53024,,tls-port=0,shard-id=5c5732fd3b1f55735ce84e335492b3e026a0db43 master - 0 1785206036000 25 connected 7864-8191
+13a930c01bffcb8daf5144ad671e3768dd678212 127.0.0.1:43007@53007,,tls-port=0,shard-id=8c5cc9b2e62527b8ab13ab4390d07762110f7351 master,fail - 1785206029516 1785206027000 8 disconnected
+8680331d5f51caf2640170260bddd0f2ba300682 127.0.0.1:43010@53010,,tls-port=0,shard-id=11c3bba5a76fb49eab79dc65a5350bc1c3831cc3 master,fail - 1785206030540 1785206028000 11 connected 3277-3603
+5bc3cdb4dd2707e60a01d8dcfdfddcb492d1cdcf 127.0.0.1:43082@53082,,tls-port=0,shard-id=5c5732fd3b1f55735ce84e335492b3e026a0db43 slave d82cfaa3d55f79b9be1bfd2a8a3b9c205545cf3c 0 1785206036000 25 connected
+9865788c3cf3d5f80a9c0e012e6b78d21241598d 127.0.0.1:43040@53040,,tls-port=0,shard-id=e1f06c898fa17e1976b4b452dd7c865b6afc76b1 master - 0 1785206035000 41 connected 13107-13434
+f02f87bd9ea39554aa33d0d2801e1a37deac18cb 127.0.0.1:43057@53057,,tls-port=0,shard-id=f49d9c04ce857c2fed32aaf23ba52fff7946876c slave 297f19bae932c1c3cbbe8c49309e0a0299329f7c 0 1785206035000 28 connected
+d7596d758dd12949a868078140cfade9aa56cd80 127.0.0.1:43041@53041,,tls-port=0,shard-id=dff3179cfe139682dd5b35c7580a93d24d27c3dd master - 0 1785206036000 42 connected 13435-13762
+eda04462ed7666bbfa913d5cd2a069e5c18edc4b 127.0.0.1:43009@53009,,tls-port=0,shard-id=3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15 master,fail - 1785206028605 1785206028508 33 connected 2949-3276
+75ec0e6e491ea57ba462e81c2b73d9524dd3339a 127.0.0.1:43036@53036,,tls-port=0,shard-id=94a412ad143eeff2a3200cdb52f5488a5bf43e3f master - 0 1785206035356 37 connected 11796-12123
+3dcea49aecc401816c6f32f070029fea63cda28b 127.0.0.1:43033@53033,,tls-port=0,shard-id=8f41191bb0b54a0150d6d76fef5a54e15692409d master - 0 1785206036000 34 connected 10813-11140
+af2c78fadbd09497d85d42a74fceb01b80950ed7 127.0.0.1:43011@53011,,tls-port=0,shard-id=a6a7a2c30ed57bd3aedd78380bdda290c99301d0 master,fail - 1785206029516 1785206027000 12 connected
+a106173d75a7c194fc248d3b52e4b033f6c3ce81 127.0.0.1:43025@53025,,tls-port=0,shard-id=fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3 master - 0 1785206036000 26 connected 8192-8519
+d2b987762bd0686a5d0102a9803ef96cb103ff9c 127.0.0.1:43014@53014,,tls-port=0,shard-id=ebda520828bde86096e0ba5d50909d6468dfbfd9 master,fail - 1785206030540 1785206028000 15 disconnected 4588-4914
+47332c36b84f555b239fdaa5c549b52936b2240b 127.0.0.1:43037@53037,,tls-port=0,shard-id=f759289807839578713497843a5e0e2b7100e2bb master - 0 1785206035000 38 connected 12124-12451
+d7781ef484f388b3b6d54912e5fdefe9391ca53b 127.0.0.1:43023@53023,,tls-port=0,shard-id=2213ac2bc62566111f055dc88b4c15b0638ed1af master - 0 1785206036595 24 connected 7537-7863
+19267d63c5c3b034be62452b739e693f976246e8 127.0.0.1:43062@53062,,tls-port=0,shard-id=6ecb2c2cc9a06793d78f2c3cff9f12b5da9b04ca slave 1377c162e23ebb1d1968d56982381297190b12f0 0 1785206036595 20 connected
+897f4d19f1411bd802339b82af8f53346ffe7b4d 127.0.0.1:43012@53012,,tls-port=0,shard-id=4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3 master,fail - 1785206029211 1785206027000 13 connected 3932-4259
+7af12c56dbaf453a90eac4308c0381e6e523be17 127.0.0.1:43034@53034,,tls-port=0,shard-id=6f467ef0153aa586d0c1b95a034f2225e6cbdf41 master - 0 1785206035000 35 connected 11141-11468
+f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 127.0.0.1:43067@53067,,tls-port=0,shard-id=87894ddbdc93b64b7eb9f878942726b6766e8200 slave d6b970fb996252a329b28befa5da9b3a0de5cbd6 0 1785206036000 46 connected
+77e576d14f53cacc8b413c32ef73a4748ed72c35 127.0.0.1:43066@53066,,tls-port=0,shard-id=075375405e6538e3228a69dad58ae899c500ace3 slave f6625cba8c046b6d1bb994e59d8b1d24054f53c8 0 1785206035567 6 connected
+f68002154c31f604c6c390b71ca5de140dd52fd9 127.0.0.1:43049@53049,,tls-port=0,shard-id=b10989c487841bfc8f5a00be639d039a9586acb6 master - 0 1785206035565 50 connected 16056-16383
+dbcf7735aa4d7cb71d6a05045da14a06a90a3537 127.0.0.1:43088@53088,,tls-port=0,shard-id=ff2088e9463bddb05136636a9b3d2e6922470d34 slave b17d42107957413c3afa216b0fd2a40efd894914 0 1785206036000 36 connected
+b17d42107957413c3afa216b0fd2a40efd894914 127.0.0.1:43035@53035,,tls-port=0,shard-id=ff2088e9463bddb05136636a9b3d2e6922470d34 master - 0 1785206035000 36 connected 11469-11795
+56e31b46022430fc0432bf9eb84f76367ee78d29 127.0.0.1:43093@53093,,tls-port=0,shard-id=2545989db1289eb45d89d68b7d8b4934033076a0 slave 021ff45debda42c9d0c6ec4d38697756bc7282c9 0 1785206035000 27 connected
+26157fdb9cdd79e00740e39a03c7e2dd298a42d6 127.0.0.1:43079@53079,,tls-port=0,shard-id=4afe26041db6af568b81298ed1b5dddd91d2928e slave 1b42b1b2814cd4cdf845c58d3dee8b06bdc1e2fa 0 1785206035000 22 connected
+2b8102351d06cb7da0724a18c835db8a8e689452 127.0.0.1:43006@53006,,tls-port=0,shard-id=5ac13db7c17aff53c6e53259cf1562c9616834b4 master,fail - 1785206030540 1785206028000 7 connected 1966-2293
+f2a5d1ec510a03b3fab9a1361f64dae29e354e1f 127.0.0.1:43055@53055,,tls-port=0,shard-id=d14734748c2c4e4d5b304c8601e83923ea7bd946 slave 6ef8138d923af73cd9b5795e2e159369dc7576e6 0 1785206035565 21 connected
+53aab6310f61f156758427c2a67c74b51cfc2887 127.0.0.1:43043@53043,,tls-port=0,shard-id=d17da985b5a58feed4de8b384d83fb1222722938 master - 0 1785206035000 44 connected 14090-14417
+c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec 127.0.0.1:43084@53084,,tls-port=0,shard-id=ed38d124e0509d98c13129a4b1a513315eb0f63e slave 9af6004abaae9fca1446b47c324adcdb70e5a493 0 1785206035000 1 connected
+b89efb2979df9746755510be7f43f627833d2e80 192.168.139.2:43032@53032,,tls-port=0,shard-id=7fcfb0caf9d26d28580b9ae161ebe57c99fce995 myself,master - 0 0 33 connected 10486-10812
+3e8507f76ce24e3c05b1773367229e46dbd6b9e4 127.0.0.1:43044@53044,,tls-port=0,shard-id=96ebe13015200e2f82feb484ad7b630fd12ad1e2 master - 0 1785206035000 45 connected 14418-14745
+b478f80dab953e9c2b150f692a5bf05baeef5ca3 127.0.0.1:43052@53052,,tls-port=0,shard-id=ebda520828bde86096e0ba5d50909d6468dfbfd9 slave d2b987762bd0686a5d0102a9803ef96cb103ff9c 0 1785206036000 15 connected
+25cbe30aa8f75982942e36df0cfbe6f1ba2f4fad 127.0.0.1:43069@53069,,tls-port=0,shard-id=acf022a55590d83c45583a7a6d78a3b7a94983cb slave d14a79794e64afb37a60bedbfc01bbd3e7b8a762 0 1785206035000 17 connected
+dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 127.0.0.1:43015@53015,,tls-port=0,shard-id=cf4c4ae80787b5a48ceaad9efa4119b804987db3 master - 0 1785206035000 16 connected 4915-5242
+aa34ea70a67865b6e155de387193f9bad86e88ad 127.0.0.1:43004@53004,,tls-port=0,shard-id=d062b5ab2273b1ec1dc918821b70c481da4173d7 master,fail - 1785206031057 1785206028510 5 connected 1311-1637
+e8288695c5a593fe5a0c11c47d868354a88051cc 127.0.0.1:43072@53072,,tls-port=0,shard-id=9b5960f4283de70a25b57c7196754e60a62a4da5 slave 8ff391cde62ac35da285a880fe39c0040ae55297 0 1785206035565 33 connected
+a9847f0b7ddd80dd39278494af56404062388804 127.0.0.1:43063@53063,,tls-port=0,shard-id=4287c9090d6e645b3a3e2a89f25b014df6112693 slave 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 0 1785206036000 23 connected
+4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 127.0.0.1:43094@53094,,tls-port=0,shard-id=781de74fc9433d569412373fa62daba430f16466 slave 240468e94b853b3840656169a90180cbb8320045 0 1785206036000 43 connected
+750d0d274daeb523c13bc398f9db981451ca4d74 127.0.0.1:43098@53098,,tls-port=0,shard-id=f759289807839578713497843a5e0e2b7100e2bb slave 47332c36b84f555b239fdaa5c549b52936b2240b 0 1785206035000 38 connected
+32de53c275041a32b70fa3a1a78909a5dbc79f31 127.0.0.1:43061@53061,,tls-port=0,shard-id=b10989c487841bfc8f5a00be639d039a9586acb6 slave f68002154c31f604c6c390b71ca5de140dd52fd9 0 1785206035000 50 connected
+782c0dac7de57b958337a52ff780be56f96cc9ab 127.0.0.1:43077@53077,,tls-port=0,shard-id=e687edbcab379eb06397d144fd22d9f0d8b21133 slave a0a21655d6a1ae1d56717571598f731d815ec22c 0 1785206036000 14 connected
+c0a5722dac9e1423a04ebf655541420084ae8b4b 127.0.0.1:43092@53092,,tls-port=0,shard-id=4d3be97075c54072c232fb80bc17d3cee950f0af slave 3ddb1fe2068972118cc55983341295f829d715cc 0 1785206035000 29 connected
+af9224f6c6b3997f3174cb05a62c89ceaf03f742 127.0.0.1:43064@53064,,tls-port=0,shard-id=3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15 slave eda04462ed7666bbfa913d5cd2a069e5c18edc4b 0 1785206035565 33 connected
+3409cbd8762fc86a9abc1ece82b14c30b5732e86 127.0.0.1:43073@53073,,tls-port=0,shard-id=d17da985b5a58feed4de8b384d83fb1222722938 slave 53aab6310f61f156758427c2a67c74b51cfc2887 0 1785206036000 44 connected
+a34f88b3c0a2a77332e1b336f504dddc627aede4 127.0.0.1:43080@53080,,tls-port=0,shard-id=96ebe13015200e2f82feb484ad7b630fd12ad1e2 slave 3e8507f76ce24e3c05b1773367229e46dbd6b9e4 0 1785206035000 45 connected
+bb8051f01b5d85c21e5f310bd9f3b6abeeefe9e2 127.0.0.1:43087@53087,,tls-port=0,shard-id=3cbe77684b1375f000de2be14bd567fd43813bb0 slave ae7cf753f52f7384bc1084c5adeb691572b27869 0 1785206035000 30 connected
+1f729d497177a475cad5ff227b6b52c03393b2e3 127.0.0.1:43078@53078,,tls-port=0,shard-id=2213ac2bc62566111f055dc88b4c15b0638ed1af slave d7781ef484f388b3b6d54912e5fdefe9391ca53b 0 1785206035000 24 connected
+043cb3eaf2dce8760506fd276cd505289f8349cc 127.0.0.1:43046@53046,,tls-port=0,shard-id=0d19a7e08628c7684c371051c5e042cb703632e4 master - 0 1785206035000 47 connected 15073-15400
+9af6004abaae9fca1446b47c324adcdb70e5a493 127.0.0.1:43000@53000,,tls-port=0,shard-id=ed38d124e0509d98c13129a4b1a513315eb0f63e master,fail - 1785206029516 1785206027000 1 connected 0-327
+1377c162e23ebb1d1968d56982381297190b12f0 127.0.0.1:43019@53019,,tls-port=0,shard-id=6ecb2c2cc9a06793d78f2c3cff9f12b5da9b04ca master - 0 1785206035000 20 connected 6226-6553
+240468e94b853b3840656169a90180cbb8320045 127.0.0.1:43042@53042,,tls-port=0,shard-id=781de74fc9433d569412373fa62daba430f16466 master - 0 1785206035000 43 connected 13763-14089
+2d8b55da5144619791c671bb8cf5a3d093c40075 127.0.0.1:43056@53056,,tls-port=0,shard-id=6f467ef0153aa586d0c1b95a034f2225e6cbdf41 slave 7af12c56dbaf453a90eac4308c0381e6e523be17 0 1785206036000 35 connected
+3ddb1fe2068972118cc55983341295f829d715cc 127.0.0.1:43028@53028,,tls-port=0,shard-id=4d3be97075c54072c232fb80bc17d3cee950f0af master - 0 1785206035000 29 connected 9175-9502
+021ff45debda42c9d0c6ec4d38697756bc7282c9 127.0.0.1:43026@53026,,tls-port=0,shard-id=2545989db1289eb45d89d68b7d8b4934033076a0 master - 0 1785206035566 27 connected 8520-8846
+9ca43c9a5b873f2f270d2f492af19fce1f1b0cab 127.0.0.1:43070@53070,,tls-port=0,shard-id=5ac13db7c17aff53c6e53259cf1562c9616834b4 slave 2b8102351d06cb7da0724a18c835db8a8e689452 0 1785206036000 7 connected
+4c3b73d091cba61cccbf9ec390d61d8c32c3be53 127.0.0.1:43039@53039,,tls-port=0,shard-id=b8a9c44ceb30b3179a7bc251382b3d62180165cd master - 0 1785206035000 40 connected 12780-13106
+485ac6326fa59e17338be9595a2c7e20de7496b6 127.0.0.1:43059@53059,,tls-port=0,shard-id=4069140c9f67c9976bce714778abd30231af496c slave 11206996aa4fcb134fc1450c61e1b77fd1554313 0 1785206035000 48 connected
+6ef8138d923af73cd9b5795e2e159369dc7576e6 127.0.0.1:43020@53020,,tls-port=0,shard-id=d14734748c2c4e4d5b304c8601e83923ea7bd946 master - 0 1785206035000 21 connected 6554-6880
+3254898e3777ca0d91b820709852d139713cff04 127.0.0.1:43001@53001,,tls-port=0,shard-id=765307815d3def2cbc18aba6936aefa372ae660b master,fail - 1785206029516 1785206027000 2 connected 328-654
+136b3659d7015aa6d3740a2c7a9414e9e693d991 127.0.0.1:43017@53017,,tls-port=0,shard-id=32c43e406be2d2088928e6a26097849163186bed master - 0 1785206035000 18 connected 5571-5897
+5427d443812b4875185e1be099e7ec3196bd9e55 127.0.0.1:43048@53048,,tls-port=0,shard-id=5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09 master - 0 1785206036000 49 connected 15729-16055
+f6625cba8c046b6d1bb994e59d8b1d24054f53c8 127.0.0.1:43005@53005,,tls-port=0,shard-id=075375405e6538e3228a69dad58ae899c500ace3 master,fail - 1785206031057 1785206028508 6 connected 1638-1965
+ca1c92679341c847bd24a1baf020f3931146dede 127.0.0.1:43089@53089,,tls-port=0,shard-id=d062b5ab2273b1ec1dc918821b70c481da4173d7 slave aa34ea70a67865b6e155de387193f9bad86e88ad 0 1785206035000 5 connected
+d14a79794e64afb37a60bedbfc01bbd3e7b8a762 127.0.0.1:43016@53016,,tls-port=0,shard-id=acf022a55590d83c45583a7a6d78a3b7a94983cb master - 0 1785206035000 17 connected 5243-5570
+a0a21655d6a1ae1d56717571598f731d815ec22c 127.0.0.1:43013@53013,,tls-port=0,shard-id=e687edbcab379eb06397d144fd22d9f0d8b21133 master,fail - 1785206030540 1785206028000 14 connected 4260-4587
+7f20e7764845bf5654d1596274d0ca97bd04e111 127.0.0.1:43090@53090,,tls-port=0,shard-id=8c5cc9b2e62527b8ab13ab4390d07762110f7351 master - 0 1785206035565 101 connected 2294-2620
+b1a8885405e9f0cf0198ac3b59cc78334655951e 127.0.0.1:43074@53074,,tls-port=0,shard-id=dff3179cfe139682dd5b35c7580a93d24d27c3dd slave d7596d758dd12949a868078140cfade9aa56cd80 0 1785206036000 42 connected
+497f5f2c03c9ba85762ac4b45e875f57d0e2274d 127.0.0.1:43075@53075,,tls-port=0,shard-id=1f1730c03293666312fb6e2e8370621227fb9332 slave a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 0 1785206034741 9 connected
+1b42b1b2814cd4cdf845c58d3dee8b06bdc1e2fa 127.0.0.1:43021@53021,,tls-port=0,shard-id=4afe26041db6af568b81298ed1b5dddd91d2928e master - 0 1785206035000 22 connected 6881-7208
+c7297d8cbb3bb11b7e1abdbb5c48637723565737 127.0.0.1:43058@53058,,tls-port=0,shard-id=32c43e406be2d2088928e6a26097849163186bed slave 136b3659d7015aa6d3740a2c7a9414e9e693d991 0 1785206036000 18 connected
+4861be930809bc8dcd53f03e268f7a44b9371d35 127.0.0.1:43031@53031,,tls-port=0,shard-id=54722357347eabd60b46e009cb824e819c639b5f master - 0 1785206036000 32 connected 10158-10485
+a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 127.0.0.1:43008@53008,,tls-port=0,shard-id=1f1730c03293666312fb6e2e8370621227fb9332 master,fail? - 1785206029516 1785206027000 9 connected 2621-2948
+535f95685df0883fd0c118fc44a09655fe0570ad 127.0.0.1:43083@53083,,tls-port=0,shard-id=7fcfb0caf9d26d28580b9ae161ebe57c99fce995 slave b89efb2979df9746755510be7f43f627833d2e80 0 1785206035000 33 connected
+e8ddc1fc4f148fccdf7188ebcab1251bca7d0b03 127.0.0.1:43068@53068,,tls-port=0,shard-id=9818cf0aab2d7a576d1c6f544769155117501059 slave b3bda9ded66705c6f4ef9ec90165780261c9a774 0 1785206036000 39 connected
+91462d5c46d4f689c816acbd1bafc885d719ebdf 127.0.0.1:43018@53018,,tls-port=0,shard-id=e7a548fb030fdd770e86255cfa22d209e82e7461 master - 0 1785206036000 19 connected 5898-6225
+51a1d3fa100e443bcf207bc815881cb1da0ffa6f 127.0.0.1:43053@53053,,tls-port=0,shard-id=94a412ad143eeff2a3200cdb52f5488a5bf43e3f slave 75ec0e6e491ea57ba462e81c2b73d9524dd3339a 0 1785206035000 37 connected
+
+------ CLIENT LIST OUTPUT ------
+id=4 addr=127.0.0.1:60436 laddr=127.0.0.1:43032 fd=212 name=*redacted* age=167 idle=1 flags=S capa= db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=22168 events=r cmd=replconf user=*redacted* redir=-1 resp=2 lib-name= lib-ver= tot-net-in=5905 tot-net-out=237 tot-cmds=164
+
+------ MODULES INFO OUTPUT ------
+
+------ CONFIG DEBUG OUTPUT ------
+client-query-buffer-limit 1gb
+activedefrag no
+dual-channel-replication-enabled no
+lazyfree-lazy-expire yes
+repl-diskless-sync yes
+repl-diskless-load disabled
+lazyfree-lazy-user-flush yes
+replica-read-only yes
+proto-max-bulk-len 512mb
+slave-read-only yes
+io-threads 1
+lazyfree-lazy-eviction yes
+debug-context ""
+list-compress-depth 0
+sanitize-dump-payload no
+lazyfree-lazy-user-del yes
+import-mode no
+lazyfree-lazy-server-del yes
+
+------ FAST MEMORY TEST ------
+1:M 28 Jul 2026 02:33:56.812 # Bio worker thread #0 terminated
+1:M 28 Jul 2026 02:33:56.812 # Bio worker thread #1 terminated
+1:M 28 Jul 2026 02:33:56.812 # Bio worker thread #2 terminated
+1:M 28 Jul 2026 02:33:56.812 # Bio worker thread #3 terminated
+*** Preparing to test memory region aaaaaefac000 (786432 bytes)
+*** Preparing to test memory region aaaaeb48c000 (540672 bytes)
+*** Preparing to test memory region ffffb5a00000 (4194304 bytes)
+*** Preparing to test memory region ffffb5ec0000 (8388608 bytes)
+*** Preparing to test memory region ffffb66d0000 (8388608 bytes)
+*** Preparing to test memory region ffffb6ee0000 (8388608 bytes)
+*** Preparing to test memory region ffffb76f0000 (8388608 bytes)
+*** Preparing to test memory region ffffb7f00000 (8388608 bytes)
+*** Preparing to test memory region ffffb8700000 (17825792 bytes)
+*** Preparing to test memory region ffffb9c12000 (53248 bytes)
+*** Preparing to test memory region ffffba223000 (12288 bytes)
+*** Preparing to test memory region ffffba562000 (28672 bytes)
+*** Preparing to test memory region ffffba56b000 (8192 bytes)
+*** Preparing to test memory region ffffba576000 (4096 bytes)
+.O.O.O.O.O.O.O.O.O.O.O.O.O.O
+Fast memory test PASSED, however your memory can still be broken. Please run a memory test for several hours if possible.
+
+=== VALKEY BUG REPORT END. Make sure to include from START to END. ===
+
+       Please report the crash by opening an issue on github:
+
+           https://github.com/valkey-io/valkey/issues
+
+  If a module was involved, please open in the module's repo instead.
+
+  Suspect RAM error? Use valkey-server --test-memory to verify it.
+
+  Some other issues could be detected by valkey-server --check-system
+1:M 28 Jul 2026 02:44:47.311 * oO0OoO0OoO0Oo Valkey is starting oO0OoO0OoO0Oo
+1:M 28 Jul 2026 02:44:47.311 * Valkey version=9.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:M 28 Jul 2026 02:44:47.311 * Configuration loaded
+1:M 28 Jul 2026 02:44:47.312 * monotonic clock: POSIX clock_gettime
+1:M 28 Jul 2026 02:44:47.312 * Running mode=cluster, port=43032.
+1:M 28 Jul 2026 02:44:47.313 * Node configuration loaded, I'm b89efb2979df9746755510be7f43f627833d2e80
+1:M 28 Jul 2026 02:44:47.313 * Server initialized
+1:M 28 Jul 2026 02:44:47.313 * Ready to accept connections tcp
+1:M 28 Jul 2026 02:44:47.316 * Reconfiguring node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () as primary for shard 54722357347eabd60b46e009cb824e819c639b5f
+1:M 28 Jul 2026 02:44:47.316 * Mismatch in topology information for sender node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () in shard 54722357347eabd60b46e009cb824e819c639b5f
+1:M 28 Jul 2026 02:44:47.316 * Marking node 8ff391cde62ac35da285a880fe39c0040ae55297 () as failing (quorum reached).
+1:M 28 Jul 2026 02:44:47.321 * Processing UPDATE message received from 3895c34265422f7dcf5c4ec6decdb10791e812d7 () in shard 54722357347eabd60b46e009cb824e819c639b5f about node 535f95685df0883fd0c118fc44a09655fe0570ad () in shard 7fcfb0caf9d26d28580b9ae161ebe57c99fce995. old configEpoch 0, new configEpoch 116
+1:M 28 Jul 2026 02:44:47.321 * Reconfiguring node 535f95685df0883fd0c118fc44a09655fe0570ad () as primary for shard 7fcfb0caf9d26d28580b9ae161ebe57c99fce995
+1:M 28 Jul 2026 02:44:47.321 * Configuration change detected. Reconfiguring myself as a replica of node 535f95685df0883fd0c118fc44a09655fe0570ad () in shard 7fcfb0caf9d26d28580b9ae161ebe57c99fce995
+1:S 28 Jul 2026 02:44:47.321 * Before turning into a replica, using my own primary parameters to synthesize a cached primary: I may be able to synchronize with the new primary with just a partial transfer.
+1:S 28 Jul 2026 02:44:47.321 * Connecting to PRIMARY 127.0.0.1:43083
+1:S 28 Jul 2026 02:44:47.321 * PRIMARY <-> REPLICA sync started
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node 59f20449ceca23f95676b637ee019862bf57e3e8 () as primary for shard 5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09
+1:S 28 Jul 2026 02:44:47.321 * Mismatch in topology information for sender node 59f20449ceca23f95676b637ee019862bf57e3e8 () in shard 5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node e8288695c5a593fe5a0c11c47d868354a88051cc () as primary for shard 9b5960f4283de70a25b57c7196754e60a62a4da5
+1:S 28 Jul 2026 02:44:47.321 * Mismatch in topology information for sender node e8288695c5a593fe5a0c11c47d868354a88051cc () in shard 9b5960f4283de70a25b57c7196754e60a62a4da5
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () as primary for shard ff2088e9463bddb05136636a9b3d2e6922470d34
+1:S 28 Jul 2026 02:44:47.321 * A failover occurred in shard ff2088e9463bddb05136636a9b3d2e6922470d34; node b17d42107957413c3afa216b0fd2a40efd894914 () lost 327 slot(s) and failed over to node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () with a config epoch of 122
+1:S 28 Jul 2026 02:44:47.321 * Node b17d42107957413c3afa216b0fd2a40efd894914 () is now a replica of node dbcf7735aa4d7cb71d6a05045da14a06a90a3537 () in shard ff2088e9463bddb05136636a9b3d2e6922470d34
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () as primary for shard d17da985b5a58feed4de8b384d83fb1222722938
+1:S 28 Jul 2026 02:44:47.321 * Mismatch in topology information for sender node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () in shard d17da985b5a58feed4de8b384d83fb1222722938
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () as primary for shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:S 28 Jul 2026 02:44:47.321 * Mismatch in topology information for sender node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () in shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:S 28 Jul 2026 02:44:47.321 * Reconfiguring node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () as primary for shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () in shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 750d0d274daeb523c13bc398f9db981451ca4d74 () as primary for shard f759289807839578713497843a5e0e2b7100e2bb
+1:S 28 Jul 2026 02:44:47.322 * A failover occurred in shard f759289807839578713497843a5e0e2b7100e2bb; node 47332c36b84f555b239fdaa5c549b52936b2240b () lost 328 slot(s) and failed over to node 750d0d274daeb523c13bc398f9db981451ca4d74 () with a config epoch of 126
+1:S 28 Jul 2026 02:44:47.322 * Node 47332c36b84f555b239fdaa5c549b52936b2240b () is now a replica of node 750d0d274daeb523c13bc398f9db981451ca4d74 () in shard f759289807839578713497843a5e0e2b7100e2bb
+1:S 28 Jul 2026 02:44:47.322 * Marking node a1e96ea2f4ab5bb2b439c0d709e7f1229d4867d0 () as failing (quorum reached).
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () as primary for shard 94a412ad143eeff2a3200cdb52f5488a5bf43e3f
+1:S 28 Jul 2026 02:44:47.322 * A failover occurred in shard 94a412ad143eeff2a3200cdb52f5488a5bf43e3f; node 75ec0e6e491ea57ba462e81c2b73d9524dd3339a () lost 328 slot(s) and failed over to node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () with a config epoch of 128
+1:S 28 Jul 2026 02:44:47.322 * Node 75ec0e6e491ea57ba462e81c2b73d9524dd3339a () is now a replica of node 51a1d3fa100e443bcf207bc815881cb1da0ffa6f () in shard 94a412ad143eeff2a3200cdb52f5488a5bf43e3f
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () as primary for shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () in shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 782c0dac7de57b958337a52ff780be56f96cc9ab () as primary for shard e687edbcab379eb06397d144fd22d9f0d8b21133
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node 782c0dac7de57b958337a52ff780be56f96cc9ab () in shard e687edbcab379eb06397d144fd22d9f0d8b21133
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node a34f88b3c0a2a77332e1b336f504dddc627aede4 () as primary for shard 96ebe13015200e2f82feb484ad7b630fd12ad1e2
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node a34f88b3c0a2a77332e1b336f504dddc627aede4 () in shard 96ebe13015200e2f82feb484ad7b630fd12ad1e2
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node a3998998af2d03552bbd766206c5fd7ec8144f26 () as primary for shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node a3998998af2d03552bbd766206c5fd7ec8144f26 () in shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:S 28 Jul 2026 02:44:47.322 * Marking node 66b22648b675bd3ba177c193c35be786d2a59ebb () as failing (quorum reached).
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 45690b52f7d2661fa983771a9cc9367851f84ee5 () as primary for shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node 45690b52f7d2661fa983771a9cc9367851f84ee5 () in shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 77e576d14f53cacc8b413c32ef73a4748ed72c35 () as primary for shard 075375405e6538e3228a69dad58ae899c500ace3
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node 77e576d14f53cacc8b413c32ef73a4748ed72c35 () in shard 075375405e6538e3228a69dad58ae899c500ace3
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node 9ca43c9a5b873f2f270d2f492af19fce1f1b0cab () as primary for shard 5ac13db7c17aff53c6e53259cf1562c9616834b4
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node 9ca43c9a5b873f2f270d2f492af19fce1f1b0cab () in shard 5ac13db7c17aff53c6e53259cf1562c9616834b4
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node ca1c92679341c847bd24a1baf020f3931146dede () as primary for shard d062b5ab2273b1ec1dc918821b70c481da4173d7
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node ca1c92679341c847bd24a1baf020f3931146dede () in shard d062b5ab2273b1ec1dc918821b70c481da4173d7
+1:S 28 Jul 2026 02:44:47.322 * Reconfiguring node c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 () as primary for shard 765307815d3def2cbc18aba6936aefa372ae660b
+1:S 28 Jul 2026 02:44:47.322 * Mismatch in topology information for sender node c971aa1d062b0939c6a377fdacd774f6cfd3f5c6 () in shard 765307815d3def2cbc18aba6936aefa372ae660b
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node eb1adddd867d0abf5057c145297088713e01ff60 () as primary for shard 11c3bba5a76fb49eab79dc65a5350bc1c3831cc3
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node eb1adddd867d0abf5057c145297088713e01ff60 () in shard 11c3bba5a76fb49eab79dc65a5350bc1c3831cc3
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node 2a25af3783aae4da6f874f2529630bbd65d4a366 () as primary for shard f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node 2a25af3783aae4da6f874f2529630bbd65d4a366 () in shard f7c458fa6aabcd9d74fb4ae59a4a7876357e1d20
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node a9847f0b7ddd80dd39278494af56404062388804 () as primary for shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node a9847f0b7ddd80dd39278494af56404062388804 () in shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:S 28 Jul 2026 02:44:47.323 * Node 53aab6310f61f156758427c2a67c74b51cfc2887 () is now a replica of node 3409cbd8762fc86a9abc1ece82b14c30b5732e86 () in shard d17da985b5a58feed4de8b384d83fb1222722938
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () as primary for shard 1f1730c03293666312fb6e2e8370621227fb9332
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node 497f5f2c03c9ba85762ac4b45e875f57d0e2274d () in shard 1f1730c03293666312fb6e2e8370621227fb9332
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () as primary for shard ed38d124e0509d98c13129a4b1a513315eb0f63e
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node c07bd78cbc3ba30f36cfaf78b5305485eb5cc0ec () in shard ed38d124e0509d98c13129a4b1a513315eb0f63e
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node af9224f6c6b3997f3174cb05a62c89ceaf03f742 () as primary for shard 3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node af9224f6c6b3997f3174cb05a62c89ceaf03f742 () in shard 3fdf54b1dfe8dba6e6be0f11f8e66729901e5f15
+1:S 28 Jul 2026 02:44:47.323 * Node 3e8507f76ce24e3c05b1773367229e46dbd6b9e4 () is now a replica of node a34f88b3c0a2a77332e1b336f504dddc627aede4 () in shard 96ebe13015200e2f82feb484ad7b630fd12ad1e2
+1:S 28 Jul 2026 02:44:47.323 * Node 5427d443812b4875185e1be099e7ec3196bd9e55 () is now a replica of node 59f20449ceca23f95676b637ee019862bf57e3e8 () in shard 5b6eb6a0ef7b13eb273dcd0adac280a6b2f15b09
+1:S 28 Jul 2026 02:44:47.323 * Reconfiguring node d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () as primary for shard 4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3
+1:S 28 Jul 2026 02:44:47.323 * Mismatch in topology information for sender node d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () in shard 4e40fb3f236d65514aba4a9ddc33f48e8c79ddf3
+1:S 28 Jul 2026 02:44:47.323 # Cluster is currently down: At least one hash slot is not served by any available node. Please check the 'cluster-require-full-coverage' configuration.
+1:S 28 Jul 2026 02:44:47.328 * Non blocking connect for SYNC fired the event.
+1:S 28 Jul 2026 02:44:47.328 * Primary replied to PING, replication can continue...
+1:S 28 Jul 2026 02:44:47.328 * Trying a partial resynchronization (request f5be3c36f99a1ef01a423d062962e5871481c7a5:1).
+1:S 28 Jul 2026 02:44:47.460 * Mismatch in topology information for sender node 4861be930809bc8dcd53f03e268f7a44b9371d35 () in shard 54722357347eabd60b46e009cb824e819c639b5f
+1:S 28 Jul 2026 02:44:47.481 * Node 4861be930809bc8dcd53f03e268f7a44b9371d35 () is now a replica of node 3895c34265422f7dcf5c4ec6decdb10791e812d7 () in shard 54722357347eabd60b46e009cb824e819c639b5f
+1:S 28 Jul 2026 02:44:47.567 * Mismatch in topology information for sender node 297f19bae932c1c3cbbe8c49309e0a0299329f7c () in shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:S 28 Jul 2026 02:44:47.573 * Node 297f19bae932c1c3cbbe8c49309e0a0299329f7c () is now a replica of node f02f87bd9ea39554aa33d0d2801e1a37deac18cb () in shard f49d9c04ce857c2fed32aaf23ba52fff7946876c
+1:S 28 Jul 2026 02:44:47.630 * Mismatch in topology information for sender node a106173d75a7c194fc248d3b52e4b033f6c3ce81 () in shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:S 28 Jul 2026 02:44:47.643 * Node a106173d75a7c194fc248d3b52e4b033f6c3ce81 () is now a replica of node 45690b52f7d2661fa983771a9cc9367851f84ee5 () in shard fcd4b79d1fb01fed39ae28558a0e74dd481b1fc3
+1:S 28 Jul 2026 02:44:47.707 * Mismatch in topology information for sender node 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 () in shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:S 28 Jul 2026 02:44:47.746 * Node 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 () is now a replica of node a9847f0b7ddd80dd39278494af56404062388804 () in shard 4287c9090d6e645b3a3e2a89f25b014df6112693
+1:S 28 Jul 2026 02:44:47.784 * Mismatch in topology information for sender node 91462d5c46d4f689c816acbd1bafc885d719ebdf () in shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:S 28 Jul 2026 02:44:47.801 * Node 91462d5c46d4f689c816acbd1bafc885d719ebdf () is now a replica of node 8f01fa1ac060f63a1e1e6f38deb5b3aa4966c4ba () in shard e7a548fb030fdd770e86255cfa22d209e82e7461
+1:S 28 Jul 2026 02:44:47.908 * Mismatch in topology information for sender node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () in shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:44:47.922 * Node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () is now a replica of node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () in shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:44:47.988 * Mismatch in topology information for sender node dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 () in shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:S 28 Jul 2026 02:44:47.995 * Node dce92a45cc533ba31aedb4cae4901f7a6f0ca9f6 () is now a replica of node a3998998af2d03552bbd766206c5fd7ec8144f26 () in shard cf4c4ae80787b5a48ceaad9efa4119b804987db3
+1:S 28 Jul 2026 02:44:52.876 * Full resync from primary: ce741b762406138016131b288748806ae99b5f22:224
+1:S 28 Jul 2026 02:44:52.876 * Replica main thread creating Bio thread to save RDB to disk
+1:S 28 Jul 2026 02:44:52.876 * Replica bio thread: PRIMARY <-> REPLICA sync: receiving streamed RDB from primary with EOF to disk
+1:S 28 Jul 2026 02:44:52.877 * Replica bio thread: Done downloading RDB
+1:S 28 Jul 2026 02:44:53.427 * Replica main thread detected RDB download completion in Bio thread
+1:S 28 Jul 2026 02:44:53.427 * Loading the RDB and finalizing primary-replica sync...
+1:S 28 Jul 2026 02:44:53.428 * Discarding previously cached primary state.
+1:S 28 Jul 2026 02:44:53.428 * PRIMARY <-> REPLICA sync: Flushing old data
+1:S 28 Jul 2026 02:44:53.429 * PRIMARY <-> REPLICA sync: Loading DB in memory
+1:S 28 Jul 2026 02:44:53.429 * Cleaning slot migration log in anticipation of a load operation.
+1:S 28 Jul 2026 02:44:53.429 * Loading RDB produced by Valkey version 9.0.5
+1:S 28 Jul 2026 02:44:53.429 * RDB age 1 seconds
+1:S 28 Jul 2026 02:44:53.429 * RDB memory usage when created 3.35 Mb
+1:S 28 Jul 2026 02:44:53.429 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 28 Jul 2026 02:44:53.429 * PRIMARY <-> REPLICA sync: Finished with success
+1:S 28 Jul 2026 02:44:54.066 * FAIL message received from 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () about b478f80dab953e9c2b150f692a5bf05baeef5ca3 ()
+1:S 28 Jul 2026 02:45:26.378 * Sending MEET packet to node c7297d8cbb3bb11b7e1abdbb5c48637723565737 () because there is no inbound link for it
+1:S 28 Jul 2026 02:45:27.609 * NODE c7297d8cbb3bb11b7e1abdbb5c48637723565737 () possibly failing.
+1:S 28 Jul 2026 02:45:28.125 * FAIL message received from 7f20e7764845bf5654d1596274d0ca97bd04e111 () about c7297d8cbb3bb11b7e1abdbb5c48637723565737 ()
+1:S 28 Jul 2026 02:45:28.495 * Reconfiguring node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () as primary for shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:45:28.495 * Mismatch in topology information for sender node 136b3659d7015aa6d3740a2c7a9414e9e693d991 () in shard 32c43e406be2d2088928e6a26097849163186bed
+1:S 28 Jul 2026 02:45:41.915 * Sending MEET packet to node 7f20e7764845bf5654d1596274d0ca97bd04e111 () because there is no inbound link for it
+1:S 28 Jul 2026 02:45:43.556 * NODE 7f20e7764845bf5654d1596274d0ca97bd04e111 () possibly failing.
+1:S 28 Jul 2026 02:45:44.075 * FAIL message received from 91462d5c46d4f689c816acbd1bafc885d719ebdf () about 7f20e7764845bf5654d1596274d0ca97bd04e111 ()
+1:S 28 Jul 2026 02:46:11.613 * Sending MEET packet to node 81487c0f773ac8ae9815f23483de9a68c9fe2906 () because there is no inbound link for it
+1:S 28 Jul 2026 02:46:12.532 * NODE 81487c0f773ac8ae9815f23483de9a68c9fe2906 () possibly failing.
+1:S 28 Jul 2026 02:46:13.570 * FAIL message received from 4c3b73d091cba61cccbf9ec390d61d8c32c3be53 () about 81487c0f773ac8ae9815f23483de9a68c9fe2906 ()
+1:S 28 Jul 2026 02:46:30.566 * Sending MEET packet to node 021ff45debda42c9d0c6ec4d38697756bc7282c9 () because there is no inbound link for it
+1:S 28 Jul 2026 02:46:30.667 * NODE 021ff45debda42c9d0c6ec4d38697756bc7282c9 () possibly failing.
+1:S 28 Jul 2026 02:46:30.971 * Sending MEET packet to node 11206996aa4fcb134fc1450c61e1b77fd1554313 () because there is no inbound link for it
+1:S 28 Jul 2026 02:46:31.592 * NODE 11206996aa4fcb134fc1450c61e1b77fd1554313 () possibly failing.
+1:S 28 Jul 2026 02:46:32.506 * FAIL message received from 6ef8138d923af73cd9b5795e2e159369dc7576e6 () about 021ff45debda42c9d0c6ec4d38697756bc7282c9 ()
+1:S 28 Jul 2026 02:46:32.519 * FAIL message received from c0a5722dac9e1423a04ebf655541420084ae8b4b () about 11206996aa4fcb134fc1450c61e1b77fd1554313 ()
+1:S 28 Jul 2026 02:46:32.974 * Reconfiguring node 56e31b46022430fc0432bf9eb84f76367ee78d29 () as primary for shard 2545989db1289eb45d89d68b7d8b4934033076a0
+1:S 28 Jul 2026 02:46:32.974 * Mismatch in topology information for sender node 56e31b46022430fc0432bf9eb84f76367ee78d29 () in shard 2545989db1289eb45d89d68b7d8b4934033076a0
+1:S 28 Jul 2026 02:46:33.137 * Reconfiguring node 485ac6326fa59e17338be9595a2c7e20de7496b6 () as primary for shard 4069140c9f67c9976bce714778abd30231af496c
+1:S 28 Jul 2026 02:46:33.137 * Mismatch in topology information for sender node 485ac6326fa59e17338be9595a2c7e20de7496b6 () in shard 4069140c9f67c9976bce714778abd30231af496c
+1:S 28 Jul 2026 02:46:37.183 * Sending MEET packet to node 782c0dac7de57b958337a52ff780be56f96cc9ab () because there is no inbound link for it
+1:S 28 Jul 2026 02:46:38.728 * Sending MEET packet to node f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 () because there is no inbound link for it
+1:S 28 Jul 2026 02:46:38.728 * NODE f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 () possibly failing.
+1:S 28 Jul 2026 02:46:39.135 * NODE 782c0dac7de57b958337a52ff780be56f96cc9ab () possibly failing.
+1:S 28 Jul 2026 02:46:39.548 * FAIL message received from b3bda9ded66705c6f4ef9ec90165780261c9a774 () about 782c0dac7de57b958337a52ff780be56f96cc9ab ()
+1:S 28 Jul 2026 02:46:40.567 * FAIL message received from 1377c162e23ebb1d1968d56982381297190b12f0 () about f07490d8cb6a2bc75b9066139bf4fcf7c004bed8 ()
+1:S 28 Jul 2026 02:47:33.361 * Sending MEET packet to node c0a5722dac9e1423a04ebf655541420084ae8b4b () because there is no inbound link for it
+1:S 28 Jul 2026 02:47:34.074 * NODE c0a5722dac9e1423a04ebf655541420084ae8b4b () possibly failing.
+1:S 28 Jul 2026 02:47:34.591 * NODE e8288695c5a593fe5a0c11c47d868354a88051cc () possibly failing.
+1:S 28 Jul 2026 02:47:34.592 * FAIL message received from 9865788c3cf3d5f80a9c0e012e6b78d21241598d () about c0a5722dac9e1423a04ebf655541420084ae8b4b ()
+1:S 28 Jul 2026 02:47:35.104 * FAIL message received from 4861be930809bc8dcd53f03e268f7a44b9371d35 () about e8288695c5a593fe5a0c11c47d868354a88051cc ()
+1:S 28 Jul 2026 02:47:45.549 * NODE 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 () possibly failing.
+1:S 28 Jul 2026 02:47:48.090 * FAIL message received from d7ddb529bcc2d193d8662f4f3978f20ae3a31a1c () about 84cc001a0a60b9cc353c6373885b9a4df2bf0c05 ()
+1:S 28 Jul 2026 02:47:51.874 * Sending MEET packet to node 5427d443812b4875185e1be099e7ec3196bd9e55 () because there is no inbound link for it
+1:S 28 Jul 2026 02:47:52.079 * Sending MEET packet to node 240468e94b853b3840656169a90180cbb8320045 () because there is no inbound link for it
+1:S 28 Jul 2026 02:47:52.594 * NODE 240468e94b853b3840656169a90180cbb8320045 () possibly failing.
+1:S 28 Jul 2026 02:47:53.102 * NODE 5427d443812b4875185e1be099e7ec3196bd9e55 () possibly failing.
+1:S 28 Jul 2026 02:47:53.525 * FAIL message received from 3231ee2d6ed1cebbca42e3bb7ba3f492c800c1c0 () about 240468e94b853b3840656169a90180cbb8320045 ()
+1:S 28 Jul 2026 02:47:53.727 * FAIL message received from f02f87bd9ea39554aa33d0d2801e1a37deac18cb () about 5427d443812b4875185e1be099e7ec3196bd9e55 ()
+1:S 28 Jul 2026 02:47:53.868 * Reconfiguring node 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () as primary for shard 781de74fc9433d569412373fa62daba430f16466
+1:S 28 Jul 2026 02:47:53.868 * Mismatch in topology information for sender node 4c14979bf06ab5c5c3cf869f2ab3330e81c69fc8 () in shard 781de74fc9433d569412373fa62daba430f16466
